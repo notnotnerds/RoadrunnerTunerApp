@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\drawable_duck_background.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\drawable\\duck_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxhdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xhdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xhdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-hdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxxhdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-mdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_duck_round.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-anydpi-v26\\duck_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-hdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-mdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\drawable_duck_foreground.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\drawable\\duck_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_duck.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-anydpi-v26\\duck.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxhdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxxhdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\TheoreticalFFScorer\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

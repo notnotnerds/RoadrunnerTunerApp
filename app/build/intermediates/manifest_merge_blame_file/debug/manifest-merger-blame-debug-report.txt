@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.theoreticalffscorer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\stepan\.gradle\caches\transforms-3\2211b2af80c2040823aefb9bbce90544\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.TheoreticalFFScorer" >
+21-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:11:9-57
+22        <activity
+22-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:12:9-22:20
+23            android:name="com.example.theoreticalffscorer.MainActivity"
+23-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:13:13-41
+24            android:exported="true"
+24-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:14:13-36
+25            android:label="@string/app_name"
+25-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:15:13-45
+26            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" >
+26-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:16:13-73
+27            <intent-filter>
+27-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:18:17-69
+28-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:20:17-77
+30-->C:\Users\stepan\AndroidStudioProjects\TheoreticalFFScorer\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <provider
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+36            android:authorities="com.example.theoreticalffscorer.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\stepan\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stepan\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stepan\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\stepan\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>
