@@ -1,6 +1,8 @@
 package com.example.theoreticalffscorer
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
@@ -24,17 +26,14 @@ class MainActivity : AppCompatActivity() {
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
         val viewPager: ViewPager = binding.viewPager
         viewPager.adapter = sectionsPagerAdapter
-        val tabs: TabLayout = binding.tabs
-        tabs.setupWithViewPager(viewPager)
-        val fab: FloatingActionButton = binding.fab
-        val duck: FloatingActionButton =  binding.fab
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
-        duck.setOnClickListener {view -> Snackbar.make(view, "You have added a duck to the game", Snackbar.LENGTH_SHORT)
-            .setAction("Ac", null).show()
-        }
+
+
+        Handler().postDelayed({
+            val intent = Intent(this@MainActivity, Home::class.java)
+            startActivity(intent)
+            finish()
+        }, 3000)
+
 
     }
 }

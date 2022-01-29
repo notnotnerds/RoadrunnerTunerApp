@@ -4,7 +4,6 @@ package com.example.theoreticalffscorer.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -12,8 +11,6 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager.widget.ViewPager;
 import com.example.theoreticalffscorer.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,24 +20,10 @@ public final class ActivityMainBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
-  public final FloatingActionButton fab;
-
-  @NonNull
-  public final TabLayout tabs;
-
-  @NonNull
-  public final TextView title;
-
-  @NonNull
   public final ViewPager viewPager;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fab, @NonNull TabLayout tabs, @NonNull TextView title,
-      @NonNull ViewPager viewPager) {
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView, @NonNull ViewPager viewPager) {
     this.rootView = rootView;
-    this.fab = fab;
-    this.tabs = tabs;
-    this.title = title;
     this.viewPager = viewPager;
   }
 
@@ -71,31 +54,13 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
-        break missingId;
-      }
-
-      id = R.id.tabs;
-      TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
-      if (tabs == null) {
-        break missingId;
-      }
-
-      id = R.id.title;
-      TextView title = ViewBindings.findChildViewById(rootView, id);
-      if (title == null) {
-        break missingId;
-      }
-
       id = R.id.view_pager;
       ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
       if (viewPager == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, fab, tabs, title, viewPager);
+      return new ActivityMainBinding((CoordinatorLayout) rootView, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

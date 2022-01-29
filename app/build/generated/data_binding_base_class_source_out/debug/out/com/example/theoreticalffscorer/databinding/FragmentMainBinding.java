@@ -11,7 +11,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.theoreticalffscorer.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -24,18 +23,13 @@ public final class FragmentMainBinding implements ViewBinding {
   public final ConstraintLayout constraintLayout;
 
   @NonNull
-  public final FloatingActionButton duck;
-
-  @NonNull
-  public final TextView sectionLabel;
+  public final TextView textView;
 
   private FragmentMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout constraintLayout, @NonNull FloatingActionButton duck,
-      @NonNull TextView sectionLabel) {
+      @NonNull ConstraintLayout constraintLayout, @NonNull TextView textView) {
     this.rootView = rootView;
     this.constraintLayout = constraintLayout;
-    this.duck = duck;
-    this.sectionLabel = sectionLabel;
+    this.textView = textView;
   }
 
   @Override
@@ -67,20 +61,13 @@ public final class FragmentMainBinding implements ViewBinding {
     missingId: {
       ConstraintLayout constraintLayout = (ConstraintLayout) rootView;
 
-      id = R.id.duck;
-      FloatingActionButton duck = ViewBindings.findChildViewById(rootView, id);
-      if (duck == null) {
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
         break missingId;
       }
 
-      id = R.id.section_label;
-      TextView sectionLabel = ViewBindings.findChildViewById(rootView, id);
-      if (sectionLabel == null) {
-        break missingId;
-      }
-
-      return new FragmentMainBinding((ConstraintLayout) rootView, constraintLayout, duck,
-          sectionLabel);
+      return new FragmentMainBinding((ConstraintLayout) rootView, constraintLayout, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
