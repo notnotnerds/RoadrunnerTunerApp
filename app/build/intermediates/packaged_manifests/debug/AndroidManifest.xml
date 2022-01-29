@@ -18,7 +18,7 @@
         android:roundIcon="@mipmap/n3_logo_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.TheoreticalFFScorer" >
+        android:theme="@style/FullScreen" >
         <activity
             android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
             android:exported="false"

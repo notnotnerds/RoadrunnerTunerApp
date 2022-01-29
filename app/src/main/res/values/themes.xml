@@ -12,6 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="android:colorButtonNormal">@color/white</item>
+        <item name="android:textColor">@color/n3_blue</item>
+        <item name="android:colorBackground">@color/n3_blue_accent</item>
+
     </style>
 
     <style name="Theme.TheoreticalFFScorer.NoActionBar">
@@ -28,6 +33,8 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorButtonNormal">@color/white</item>
+        <item name="android:textColor">@color/n3_blue</item>
     </style>
 
 </resources>

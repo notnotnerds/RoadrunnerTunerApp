@@ -8,7 +8,7 @@
         android:label="Road Runner Tuner"
         android:roundIcon="@mipmap/n3_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TheoreticalFFScorer">
+        android:theme="@style/FullScreen">
         <activity
             android:name=".ui.main.TuningProcess"
             android:exported="false"

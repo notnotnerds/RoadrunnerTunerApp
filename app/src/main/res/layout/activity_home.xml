@@ -14,6 +14,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="Road Runner Tuner"
+        android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,6 +27,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="A guided Road Runner Tuning app, for when you can't be bothered to go to https://learnroadrunner.com"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
