@@ -63,9 +63,9 @@
                     "from": {
                         "startLines": "1,2,3,4",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "17,77,123,169",
+                        "startOffsets": "16,75,120,165",
                         "endColumns": "58,44,44,37",
-                        "endOffsets": "71,117,163,202"
+                        "endOffsets": "70,115,160,198"
                     },
                     "to": {
                         "startLines": "1080,1153,1154,1155",

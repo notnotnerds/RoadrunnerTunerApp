@@ -6,17 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="268dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="317dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="Road Runner Tuner"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="384dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:text="A guided Road Runner Tuning app, for when you can't be bothered to go to https://learnroadrunner.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
     <Button
-        android:id="@+id/button"
-        android:layout_width="188dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="510dp"
-        android:layout_marginBottom="168dp"
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="341dp"
+        android:background="#0E86D6"
+        android:text="Start From The Beginning"
+        android:textColor="#EFEBE9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

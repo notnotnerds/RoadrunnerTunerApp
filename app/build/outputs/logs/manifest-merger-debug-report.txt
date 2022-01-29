@@ -89,7 +89,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ajesc\.gradle\cach
 	android:supportsRtl
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:8:9-42
 	android:roundIcon
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
@@ -111,7 +111,7 @@ ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\Android
 activity#com.example.theoreticalffscorer.MainActivity
 ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:17:9-27:20
 	android:label
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-41
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-37
 	android:exported
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:19:13-36
 	android:theme

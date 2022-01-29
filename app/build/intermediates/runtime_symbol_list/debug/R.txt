@@ -1813,7 +1813,7 @@ int id beginning 0x7f0a0054
 int id blocking 0x7f0a0055
 int id bottom 0x7f0a0056
 int id bounce 0x7f0a0057
-int id button 0x7f0a0058
+int id button2 0x7f0a01b7
 int id buttonPanel 0x7f0a0059
 int id cache_measures 0x7f0a005a
 int id cancel_button 0x7f0a005b
@@ -2118,6 +2118,8 @@ int id textSpacerNoTitle 0x7f0a0185
 int id textStart 0x7f0a0186
 int id textTop 0x7f0a0187
 int id textView 0x7f0a0188
+int id textView3 0x7f0a01b5
+int id textView4 0x7f0a01b6
 int id text_input_end_icon 0x7f0a0189
 int id text_input_error_icon 0x7f0a018a
 int id text_input_start_icon 0x7f0a018b

@@ -14,7 +14,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Road Runner Tuner"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -27,7 +27,7 @@
         <activity
             android:name="com.example.theoreticalffscorer.MainActivity"
             android:exported="true"
-            android:label="SplashScreen"
+            android:label="RR Tuner"
             android:theme="@style/FullScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
