@@ -4,16 +4,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/n3_logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="Road Runner Tuner"
-        android:roundIcon="@mipmap/n3_logo_round"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/FullScreen">
+        android:theme="@style/Theme.TheoreticalFFScorer">
         <activity
             android:name=".ui.main.TuningProcess"
             android:exported="false"
             android:label="@string/title_activity_tuning_process"
-            android:theme="@style/FullScreen" />
+            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
         <activity
             android:name=".Home"
             android:exported="false"
