@@ -20,6 +20,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.TheoreticalFFScorer" >
         <activity
+            android:name="com.example.theoreticalffscorer.NavDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
+        <activity
             android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
             android:exported="false"
             android:label="@string/title_activity_tuning_process"
@@ -44,6 +49,13 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

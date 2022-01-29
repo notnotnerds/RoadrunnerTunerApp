@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.theoreticalffscorer">
+    package="com.example.theoreticalffscorer" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,12 @@
         android:label="Road Runner Tuner"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TheoreticalFFScorer">
+        android:theme="@style/Theme.TheoreticalFFScorer" >
+        <activity
+            android:name=".NavDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
         <activity
             android:name=".ui.main.TuningProcess"
             android:exported="false"
@@ -23,7 +28,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="RR Tuner"
-            android:theme="@style/FullScreen">
+            android:theme="@style/FullScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

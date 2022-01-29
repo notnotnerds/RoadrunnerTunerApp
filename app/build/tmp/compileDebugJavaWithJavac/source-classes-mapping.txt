@@ -1,14 +1,28 @@
-com/example/theoreticalffscorer/BuildConfig.java
- com.example.theoreticalffscorer.BuildConfig
+com/example/theoreticalffscorer/databinding/FragmentGalleryBinding.java
+ com.example.theoreticalffscorer.databinding.FragmentGalleryBinding
+com/example/theoreticalffscorer/databinding/ContentNavDrawerBinding.java
+ com.example.theoreticalffscorer.databinding.ContentNavDrawerBinding
 com/example/theoreticalffscorer/databinding/FragmentMainBinding.java
  com.example.theoreticalffscorer.databinding.FragmentMainBinding
-com/example/theoreticalffscorer/databinding/TunerIntroFragmentBinding.java
- com.example.theoreticalffscorer.databinding.TunerIntroFragmentBinding
 com/example/theoreticalffscorer/databinding/ActivityMainBinding.java
  com.example.theoreticalffscorer.databinding.ActivityMainBinding
+com/example/theoreticalffscorer/databinding/AppBarNavDrawerBinding.java
+ com.example.theoreticalffscorer.databinding.AppBarNavDrawerBinding
+com/example/theoreticalffscorer/databinding/ActivityNavDrawerBinding.java
+ com.example.theoreticalffscorer.databinding.ActivityNavDrawerBinding
 com/example/theoreticalffscorer/databinding/ActivityHomeBinding.java
  com.example.theoreticalffscorer.databinding.ActivityHomeBinding
-com/example/theoreticalffscorer/databinding/ActivityTuningProcessBinding.java
- com.example.theoreticalffscorer.databinding.ActivityTuningProcessBinding
+com/example/theoreticalffscorer/databinding/FragmentHomeBinding.java
+ com.example.theoreticalffscorer.databinding.FragmentHomeBinding
 com/example/theoreticalffscorer/databinding/FragmentTuningProcessBinding.java
  com.example.theoreticalffscorer.databinding.FragmentTuningProcessBinding
+com/example/theoreticalffscorer/databinding/TunerIntroFragmentBinding.java
+ com.example.theoreticalffscorer.databinding.TunerIntroFragmentBinding
+com/example/theoreticalffscorer/databinding/NavHeaderNavDrawerBinding.java
+ com.example.theoreticalffscorer.databinding.NavHeaderNavDrawerBinding
+com/example/theoreticalffscorer/BuildConfig.java
+ com.example.theoreticalffscorer.BuildConfig
+com/example/theoreticalffscorer/databinding/FragmentSlideshowBinding.java
+ com.example.theoreticalffscorer.databinding.FragmentSlideshowBinding
+com/example/theoreticalffscorer/databinding/ActivityTuningProcessBinding.java
+ com.example.theoreticalffscorer.databinding.ActivityTuningProcessBinding

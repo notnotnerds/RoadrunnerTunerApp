@@ -1,19 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck.png.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\duck.png"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\menu\\nav_drawer.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_duck_foreground.xml.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\duck_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -24,12 +20,12 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\tuner_intro_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck_round.png.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\duck_round.png"
-    },
-    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_nav_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_nav_drawer.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -48,24 +44,16 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck_round.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\duck_round.png"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_duck.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\duck.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\font_allerta_stencil.xml.flat",
@@ -84,10 +72,6 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\duck_round.png"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_main.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_duck.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xhdpi\\duck.png"
     },
@@ -96,12 +80,92 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\duck.png"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_nav_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\nav_header_nav_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_slideshow.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\duck.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck_round.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\duck_round.png"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_nav_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\app_bar_nav_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_duck.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\duck.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tuning_process.xml.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_tuning_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_duck.png.flat",
@@ -120,23 +184,15 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\duck_background.xml"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_duck.png.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-mdpi\\duck.png"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_content_nav_drawer.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\content_nav_drawer.xml"
     }
 ]
