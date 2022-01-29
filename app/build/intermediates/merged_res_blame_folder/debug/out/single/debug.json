@@ -108,12 +108,12 @@
         "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\duck_round.png"
     },
     {
-        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_n3_logo_round.png.flat",
         "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\n3_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_duck_round.png.flat",
