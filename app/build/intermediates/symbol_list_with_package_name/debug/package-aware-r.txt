@@ -1153,6 +1153,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color n3_logo_background
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -2350,6 +2351,9 @@ mipmap duck
 mipmap duck_round
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap n3_logo
+mipmap n3_logo_foreground
+mipmap n3_logo_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

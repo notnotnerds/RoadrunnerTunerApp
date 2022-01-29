@@ -112,9 +112,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="101328" />
-                                      <entry key="foregroundLayerName" value="N3_logo_foreground" />
-                                      <entry key="outputName" value="N3_Logo" />
+                                      <entry key="backgroundColor" value="0f132d" />
+                                      <entry key="outputName" value="n3_logo" />
                                     </map>
                                   </option>
                                 </PersistentState>

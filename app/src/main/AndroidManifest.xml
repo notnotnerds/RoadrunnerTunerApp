@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/n3_logo"
         android:label="Road Runner Tuner"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/n3_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TheoreticalFFScorer">
         <activity
