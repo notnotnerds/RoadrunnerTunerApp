@@ -3,4 +3,19 @@
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="todo">TODO</string>
+    <string name="welcome_to_the_tuner">Welcome to the Tuner</string>
+    <string name="localization_test_1">Localization Test 1</string>
+    <string name="turn_test">Turn Test</string>
+    <string name="strafe_test">Strafe Test</string>
+    <string name="track_width_tuner">Track Width Tuner</string>
+    <string name="straight_test">Straight Test</string>
+    <string name="drive_velocity_pid_tuner">Drive Velocity PID Tuner</string>
+    <string name="drive_constants">Drive Constants</string>
+    <string name="localization_test_2">Localization Test 2</string>
+    <string name="spline_test">Spline Test</string>
+    <string name="follower_pid_tuner">Follower PID Tuner</string>
+    <string name="max_velocity_test">Max Velocity Test</string>
+    <string name="title_activity_tuning_process">TuningProcess</string>
+    <string name="none">none</string>
+    <string name="image">image</string>
 </resources>

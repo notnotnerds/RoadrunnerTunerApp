@@ -20,6 +20,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.TheoreticalFFScorer" >
         <activity
+            android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
+            android:exported="false"
+            android:label="@string/title_activity_tuning_process"
+            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
+        <activity
             android:name="com.example.theoreticalffscorer.Home"
             android:exported="false"
             android:label="Home"

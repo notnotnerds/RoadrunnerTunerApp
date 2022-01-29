@@ -20,6 +20,10 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_tuner_intro_fragment.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\tuner_intro_fragment.xml"
+    },
+    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck_round.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-hdpi\\duck_round.png"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_tuning_process.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_tuning_process.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_duck_round.png.flat",
@@ -90,6 +98,10 @@
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tuning_process.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_tuning_process.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_duck.png.flat",

@@ -10,6 +10,9 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
+import android.widget.Toast
 import com.example.theoreticalffscorer.ui.main.SectionsPagerAdapter
 import com.example.theoreticalffscorer.databinding.ActivityMainBinding
 
@@ -26,14 +29,10 @@ class MainActivity : AppCompatActivity() {
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
         val viewPager: ViewPager = binding.viewPager
         viewPager.adapter = sectionsPagerAdapter
-
-
         Handler().postDelayed({
-            val intent = Intent(this@MainActivity, Home::class.java)
+            val intent = Intent(this, Home::class.java)
             startActivity(intent)
             finish()
         }, 3000)
-
-
     }
 }

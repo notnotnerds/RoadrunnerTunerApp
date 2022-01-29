@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TheoreticalFFScorer">
         <activity
-            android:name=".Home"
-            android:theme="@style/FullScreen"
+            android:name=".ui.main.TuningProcess"
             android:exported="false"
-            android:label="Home" />
+            android:label="@string/title_activity_tuning_process"
+            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="Home"
+            android:theme="@style/FullScreen" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
