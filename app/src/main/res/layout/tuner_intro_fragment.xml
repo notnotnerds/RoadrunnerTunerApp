@@ -15,7 +15,6 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/welcome_to_the_tuner"
-        android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constrainedHeight="true"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,139 +23,138 @@
 
     <Button
         android:id="@+id/driveConstantsButton"
-        android:layout_width="240dp"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="92dp"
-        android:layout_marginEnd="10dp"
-        android:background="@color/white"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/drive_constants"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintEnd_toStartOf="@+id/maxVelocityButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/welcomeMessage" />
 
     <Button
         android:id="@+id/maxVelocityButton"
-        android:layout_width="240dp"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="15dp"
-        android:background="@color/white"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/max_velocity_test"
-        android:textColor="@color/n3_blue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/driveConstantsButton"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
 
     <Button
         android:id="@+id/firstLocalizationTest1Button"
-        android:layout_width="240dp"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="33dp"
-        android:layout_marginEnd="10dp"
-        android:background="@color/white"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/localization_test_1"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintEnd_toStartOf="@+id/driveVeloPIDTunerButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/driveConstantsButton" />
 
     <Button
         android:id="@+id/driveVeloPIDTunerButton"
-        android:layout_width="240dp"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="16dp"
-        android:background="@color/white"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="15dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/drive_velocity_pid_tuner"
-        android:textColor="@color/n3_blue"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/firstLocalizationTest1Button"
         app:layout_constraintTop_toBottomOf="@+id/maxVelocityButton" />
 
     <Button
         android:id="@+id/straightTestButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:background="@color/white"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="33dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/straight_test"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/driveVeloPIDTunerButton"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstLocalizationTest1Button" />
 
     <Button
         android:id="@+id/strafeTestButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="15dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/strafe_test"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/straightTestButton" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/driveVeloPIDTunerButton" />
 
     <Button
         android:id="@+id/trackWidthTunerButton"
-        android:layout_width="match_parent"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="33dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/track_width_tuner"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/strafeTestButton" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/straightTestButton" />
 
     <Button
         android:id="@+id/turnTestButton"
-        android:layout_width="match_parent"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/turn_test"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/trackWidthTunerButton" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strafeTestButton" />
 
     <Button
         android:id="@+id/secondLocalizationTestButton"
-        android:layout_width="match_parent"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="33dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/localization_test_2"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/turnTestButton" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trackWidthTunerButton" />
 
     <Button
         android:id="@+id/followerPIDTunerButton"
-        android:layout_width="match_parent"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
-        android:background="@color/white"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/follower_pid_tuner"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/secondLocalizationTestButton"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/turnTestButton" />
 
     <Button
         android:id="@+id/splineTestButton"
-        android:layout_width="match_parent"
+        style="@style/Theme.TheoreticalFFScorer.Buttons"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@color/white"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="155dp"
         android:fontFamily="@font/allerta_stencil"
         android:text="@string/spline_test"
-        android:textColor="@color/n3_blue"
-        app:layout_constraintTop_toBottomOf="@id/followerPIDTunerButton"
-        tools:layout_editor_absoluteX="38dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondLocalizationTestButton" />
 
     <ImageView
         android:id="@+id/imageView"

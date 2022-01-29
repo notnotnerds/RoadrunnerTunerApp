@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="n3_blue">#0d0a2b</color>
     <color name="n3_blue_accent">#3a3670</color>
+    <color name="light_theme_color">#a7adb8</color>
 </resources>

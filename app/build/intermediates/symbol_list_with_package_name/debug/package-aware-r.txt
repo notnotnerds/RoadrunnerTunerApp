@@ -1068,6 +1068,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_theme_color
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1153,6 +1154,8 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color n3_blue
+color n3_blue_accent
 color n3_logo_background
 color notification_action_color_filter
 color notification_icon_bg_color
@@ -2946,6 +2949,7 @@ style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
 style Theme_TheoreticalFFScorer
 style Theme_TheoreticalFFScorer_AppBarOverlay
+style Theme_TheoreticalFFScorer_Buttons
 style Theme_TheoreticalFFScorer_NoActionBar
 style Theme_TheoreticalFFScorer_PopupOverlay
 style ThemeOverlay_AppCompat

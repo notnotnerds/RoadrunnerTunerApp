@@ -88,12 +88,12 @@
         "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\duck_round.xml"
     },
     {
-        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

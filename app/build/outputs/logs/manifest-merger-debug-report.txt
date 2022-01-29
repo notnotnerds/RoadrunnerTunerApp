@@ -103,7 +103,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ajesc\.gradle\cach
 	android:allowBackup
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-57
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-42
 activity#com.example.theoreticalffscorer.ui.main.TuningProcess
 ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:12:9-16:49
 	android:label

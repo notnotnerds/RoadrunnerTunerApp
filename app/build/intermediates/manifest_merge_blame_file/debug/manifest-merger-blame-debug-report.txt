@@ -27,8 +27,8 @@
 19        android:supportsRtl="true"
 19-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
-21        android:theme="@style/Theme.TheoreticalFFScorer" >
-21-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-57
+21        android:theme="@style/FullScreen" >
+21-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-42
 22        <activity
 22-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:12:9-16:49
 23            android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"

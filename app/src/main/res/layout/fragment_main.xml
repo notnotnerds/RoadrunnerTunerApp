@@ -15,7 +15,6 @@
         android:fontFamily="@font/allerta_stencil"
         android:text="Road Runner Tuner"
         android:textAlignment="center"
-        android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
