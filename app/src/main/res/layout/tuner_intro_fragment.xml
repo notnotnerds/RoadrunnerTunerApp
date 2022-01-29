@@ -11,77 +11,101 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/welcome_to_the_tuner"
         android:textSize="25sp"
         app:layout_constrainedHeight="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/driveConstantsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/drive_constants"
-        app:layout_constraintTop_toBottomOf="@id/welcomeMessage"
-        />
+        app:layout_constraintTop_toBottomOf="@id/welcomeMessage" />
+
     <Button
         android:id="@+id/maxVelocityButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/max_velocity_test"
         app:layout_constraintTop_toBottomOf="@id/driveConstantsButton" />
+
     <Button
         android:id="@+id/firstLocalizationTest1Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/localization_test_1"
         app:layout_constraintTop_toBottomOf="@id/maxVelocityButton" />
+
     <Button
         android:id="@+id/driveVeloPIDTunerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/drive_velocity_pid_tuner"
         app:layout_constraintTop_toBottomOf="@id/firstLocalizationTest1Button" />
+
     <Button
         android:id="@+id/straightTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/straight_test"
         app:layout_constraintTop_toBottomOf="@id/driveVeloPIDTunerButton" />
+
     <Button
         android:id="@+id/strafeTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/strafe_test"
         app:layout_constraintTop_toBottomOf="@id/straightTestButton" />
+
     <Button
         android:id="@+id/trackWidthTunerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/track_width_tuner"
         app:layout_constraintTop_toBottomOf="@id/strafeTestButton" />
+
     <Button
         android:id="@+id/turnTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/turn_test"
         app:layout_constraintTop_toBottomOf="@id/trackWidthTunerButton" />
+
     <Button
         android:id="@+id/secondLocalizationTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/localization_test_2"
         app:layout_constraintTop_toBottomOf="@id/turnTestButton" />
+
     <Button
         android:id="@+id/followerPIDTunerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/follower_pid_tuner"
         app:layout_constraintTop_toBottomOf="@id/secondLocalizationTestButton" />
+
     <Button
         android:id="@+id/splineTestButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:text="@string/spline_test"
         app:layout_constraintTop_toBottomOf="@id/followerPIDTunerButton" />
 

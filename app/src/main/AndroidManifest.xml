@@ -13,7 +13,7 @@
             android:name=".ui.main.TuningProcess"
             android:exported="false"
             android:label="@string/title_activity_tuning_process"
-            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
+            android:theme="@style/FullScreen" />
         <activity
             android:name=".Home"
             android:exported="false"

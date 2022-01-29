@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\stepan\\AndroidStudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\stepan\\.gradle\\caches\\transforms-3\\7545af025cfa01c9c3f5b4e4358e8fe1\\transformed\\appcompat-1.4.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\ajesc\\.gradle\\caches\\transforms-3\\7545af025cfa01c9c3f5b4e4358e8fe1\\transformed\\appcompat-1.4.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

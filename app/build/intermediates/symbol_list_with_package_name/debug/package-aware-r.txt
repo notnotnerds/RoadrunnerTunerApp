@@ -1933,7 +1933,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
 id info
 id invisible
 id inward
@@ -2269,7 +2268,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_main
-layout fragment_tuning_process
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

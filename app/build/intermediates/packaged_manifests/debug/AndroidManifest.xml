@@ -23,7 +23,7 @@
             android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
             android:exported="false"
             android:label="@string/title_activity_tuning_process"
-            android:theme="@style/Theme.TheoreticalFFScorer.NoActionBar" />
+            android:theme="@style/FullScreen" />
         <activity
             android:name="com.example.theoreticalffscorer.Home"
             android:exported="false"
