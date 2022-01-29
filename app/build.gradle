@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "com.example.theoreticalffscorer"
-        minSdk 23
-        targetSdk 30
+        minSdk 24
+        targetSdk 31
         versionCode 1
-        versionName "1.0"
+        versionName "0.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -1,8 +1,8 @@
-com/example/theoreticalffscorer/BuildConfig.java
- com.example.theoreticalffscorer.BuildConfig
 com/example/theoreticalffscorer/databinding/FragmentMainBinding.java
  com.example.theoreticalffscorer.databinding.FragmentMainBinding
 com/example/theoreticalffscorer/databinding/ActivityMainBinding.java
  com.example.theoreticalffscorer.databinding.ActivityMainBinding
+com/example/theoreticalffscorer/BuildConfig.java
+ com.example.theoreticalffscorer.BuildConfig
 com/example/theoreticalffscorer/databinding/ActivityHomeBinding.java
  com.example.theoreticalffscorer.databinding.ActivityHomeBinding
