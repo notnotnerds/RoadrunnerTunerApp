@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
+    private var pressedTime: Long = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -105,4 +106,13 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 */
+    override fun onBackPressed() {
+        if (pressedTime + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed()
+            finish()
+        } else {
+            Toast.makeText(baseContext, "Press back again to exit", Toast.LENGTH_SHORT).show()
+        }
+        pressedTime = System.currentTimeMillis()
+    }
 }
