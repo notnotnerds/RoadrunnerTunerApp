@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/AppTitle"
-        android:layout_width="317dp"
-        android:layout_height="43dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/allerta_stencil"
         android:text="RoadRunner Tuner"
         android:textAlignment="center"

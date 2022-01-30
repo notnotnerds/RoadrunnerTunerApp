@@ -1,6 +1,8 @@
 package com.notnotnerds.roadrunnertuner
 
+import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -76,7 +78,16 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
-    fun startTuningProcess(view: android.view.View) {setContentView(R.layout.fragment_gallery)}
+    fun startTuningProcess(view: android.view.View) {
+        setContentView(R.layout.fragment_gallery)
+
+        Handler().postDelayed({
+               val intent = Intent(this, splash::class.java)
+               startActivity(intent)
+               finish()
+        }, 3000)
+
+    }
     /*fun showSettings(item: android.view.MenuItem) {setContentView(R.layout.app_bar_main)}
     fun onPreferenceStartFragment(caller: PreferenceFragmentCompat, pref: Preference): Boolean {
         // Instantiate the new Fragment

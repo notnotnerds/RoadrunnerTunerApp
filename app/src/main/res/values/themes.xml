@@ -18,6 +18,11 @@
         <item name="android:textColor">@color/n3_blue</item>
         <item name="android:windowFullscreen">true</item>
 
+        <item name="android:actionMenuTextColor">@color/n3_blue</item>
+
+        <item name="android:itemTextAppearance">@color/n3_blue</item>
+
+
     </style>
 
     <style name="Theme.RoadRunnerTuner.NoActionBar">
