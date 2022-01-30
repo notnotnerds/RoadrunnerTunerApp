@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         val viewPager: ViewPager = binding.viewPager
         viewPager.adapter = sectionsPagerAdapter
         Handler().postDelayed({
-            val intent = Intent(this, Home::class.java)
+            val intent = Intent(this, MainNavScreen::class.java)
             startActivity(intent)
             finish()
         }, 3000)

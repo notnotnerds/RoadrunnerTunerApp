@@ -20,6 +20,16 @@
         android:testOnly="true"
         android:theme="@style/FullScreen" >
         <activity
+            android:name="com.example.theoreticalffscorer.MainNavScreen"
+            android:exported="false"
+            android:label="@string/title_activity_main_nav_screen" />
+        <activity
+            android:name="com.example.theoreticalffscorer.DriveConstants"
+            android:exported="false"
+            android:label="DriveConstants"
+            android:parentActivityName="com.example.theoreticalffscorer.TunerIntro"
+            android:theme="@style/FullScreen" />
+        <activity
             android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
             android:exported="false"
             android:label="@string/title_activity_tuning_process"
@@ -44,6 +54,13 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

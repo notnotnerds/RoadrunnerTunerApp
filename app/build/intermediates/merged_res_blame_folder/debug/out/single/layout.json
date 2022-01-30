@@ -1,19 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_tuning_process.xml",
-        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_tuning_process.xml"
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_nav_screen.xml",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main_nav_screen.xml"
     },
     {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tuner_intro_fragment.xml",
-        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\tuner_intro_fragment.xml"
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
-        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\ajesc\\StudioProjects\\RoadrunnerTunerApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_main.xml",
