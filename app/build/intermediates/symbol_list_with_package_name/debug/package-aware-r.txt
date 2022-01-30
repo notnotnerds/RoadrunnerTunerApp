@@ -2511,6 +2511,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable duck_background
 drawable duck_foreground
+drawable ic_baby_rr
 drawable ic_clock_black_24dp
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
@@ -2643,6 +2644,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_restart
 id action_settings
 id action_text
 id actions
@@ -2881,6 +2883,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
+id nav_dashboard
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
@@ -3314,11 +3317,13 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string bug_reporter
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string dashboard
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3422,8 +3427,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string restart
 string search_menu_title
 string status_bar_notification_info_overflow
+string string_bug_reporter
 string title_activity_main
 string title_dashboard
 string title_home
