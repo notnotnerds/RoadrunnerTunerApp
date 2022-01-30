@@ -11,14 +11,14 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_launcher_foreground"
-            android:title="@string/menu_slideshow" />
+            android:title="Tuning" />
         <item
             android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_baby_rr"
             android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="*TBD*" />
     </group>
 </menu>

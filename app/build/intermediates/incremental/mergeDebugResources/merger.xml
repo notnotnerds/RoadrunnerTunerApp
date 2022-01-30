@@ -10544,6 +10544,8 @@
 
         <item name="android:itemTextAppearance">@color/n3_blue</item>
 
+        <item name="android:fontFamily">@font/allerta_stencil</item>
+
 
     </style><style name="Theme.RoadRunnerTuner.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -10568,6 +10570,8 @@
         <item name="android:actionMenuTextColor">@color/n3_white</item>
 
         <item name="android:itemTextAppearance">@color/n3_white</item>
+
+        <item name="android:fontFamily">@font/allerta_stencil</item>
 
 
     </style><style name="Theme.RoadRunnerTuner.Buttons">

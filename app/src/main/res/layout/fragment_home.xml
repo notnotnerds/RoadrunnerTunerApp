@@ -26,6 +26,7 @@
         style="@style/Theme.RoadRunnerTuner.Buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta_stencil"
         android:onClick="startTuningProcess"
         android:text="Click Me to start tuning"
         app:layout_constraintEnd_toEndOf="parent"

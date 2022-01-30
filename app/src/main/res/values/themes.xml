@@ -22,6 +22,8 @@
 
         <item name="android:itemTextAppearance">@color/n3_blue</item>
 
+        <item name="android:fontFamily">@font/allerta_stencil</item>
+
 
     </style>
 
