@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RoadrunnerTunerApp.iml" filepath="$PROJECT_DIR$/.idea/RoadrunnerTunerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoadRunnerTuner.iml" filepath="$PROJECT_DIR$/.idea/modules/RoadRunnerTuner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RoadRunnerTuner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RoadRunnerTuner.app.iml" />
     </modules>
   </component>
 </project>

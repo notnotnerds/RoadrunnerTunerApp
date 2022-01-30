@@ -7,7 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="n3_blue">#0d0a2b</color>
-    <color name="n3_blue_accent">#3a3670</color>
-    <color name="light_theme_color">#a7adb8</color>
+    <color name="n3_blue">#0b0f38</color>
+    <color name="n3_accent">#37ff30</color>
+    <color name="n3_white">#e6e6e6</color>
+
 </resources>

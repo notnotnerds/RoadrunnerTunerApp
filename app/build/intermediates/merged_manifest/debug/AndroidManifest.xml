@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.theoreticalffscorer"
+    package="com.notnotnerds.roadrunnertuner"
     android:versionCode="1"
-    android:versionName="0.0.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
+        android:minSdkVersion="26"
         android:targetSdkVersion="31" />
 
     <application
@@ -13,47 +13,27 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@mipmap/n3_logo"
-        android:label="Road Runner Tuner"
-        android:roundIcon="@mipmap/n3_logo_round"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/FullScreen" >
+        android:theme="@style/Theme.RoadRunnerTuner" >
         <activity
-            android:name="com.example.theoreticalffscorer.MainNavScreen"
+            android:name="com.notnotnerds.roadrunnertuner.MainActivity"
             android:exported="false"
-            android:label="@string/title_activity_main_nav_screen" />
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.RoadRunnerTuner.NoActionBar" />
         <activity
-            android:name="com.example.theoreticalffscorer.DriveConstants"
-            android:exported="false"
-            android:label="DriveConstants"
-            android:parentActivityName="com.example.theoreticalffscorer.TunerIntro"
-            android:theme="@style/FullScreen" />
-        <activity
-            android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
-            android:exported="false"
-            android:label="@string/title_activity_tuning_process"
-            android:theme="@style/FullScreen" />
-        <activity
-            android:name="com.example.theoreticalffscorer.Home"
-            android:exported="false"
-            android:label="Home"
-            android:theme="@style/FullScreen" />
-        <activity
-            android:name="com.example.theoreticalffscorer.MainActivity"
+            android:name="com.notnotnerds.roadrunnertuner.splash"
             android:exported="true"
-            android:label="RR Tuner"
-            android:theme="@style/FullScreen" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
 
         <uses-library
             android:name="androidx.window.extensions"
@@ -64,7 +44,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.theoreticalffscorer.androidx-startup"
+            android:authorities="com.notnotnerds.roadrunnertuner.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

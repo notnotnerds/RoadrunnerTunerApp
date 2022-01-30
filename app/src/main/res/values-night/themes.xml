@@ -1,16 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.TheoreticalFFScorer" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.RoadRunnerTuner" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/n3_blue</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/n3_white</item>
         <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/n3_accent</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/n3_white</item>
         <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:colorButtonNormal">@color/white</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:colorBackground">@color/n3_blue</item>
-    </style>
 
-    <style name="Theme.TheoreticalFFScorer.Buttons">
-        <item name="android:textColor">@color/n3_blue</item>
+        <item name="android:colorBackground">@color/n3_blue</item>
+
+        <item name="android:textColor">@color/n3_white</item>
+        <item name="android:windowFullscreen">true</item>
+
+
     </style>
 </resources>

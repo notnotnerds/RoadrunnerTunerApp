@@ -1,137 +1,98 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.theoreticalffscorer"
+3    package="com.notnotnerds.roadrunnertuner"
 4    android:versionCode="1"
-5    android:versionName="0.0.1" >
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
+8        android:minSdkVersion="26"
 8-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:6:5-49:19
+11-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
-12-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:7:9-35
+12-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\ajesc\.gradle\caches\transforms-3\2211b2af80c2040823aefb9bbce90544\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\ajesc\.gradle\caches\transforms-3\fb3270031bd107031c21c5dc13d9e5ef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/n3_logo"
-16-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:8:9-39
-17        android:label="Road Runner Tuner"
-17-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:9:9-42
-18        android:roundIcon="@mipmap/n3_logo_round"
-18-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:10:9-50
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
-19-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-35
+19-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
-21        android:theme="@style/FullScreen" >
-21-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:12:9-42
+21        android:theme="@style/Theme.RoadRunnerTuner" >
+21-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:11:9-53
 22        <activity
-22-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:13:9-16:70
-23            android:name="com.example.theoreticalffscorer.MainNavScreen"
-23-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:14:13-42
+22-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:12:9-16:72
+23            android:name="com.notnotnerds.roadrunnertuner.MainActivity"
+23-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:13:13-41
 24            android:exported="false"
-24-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:15:13-37
-25            android:label="@string/title_activity_main_nav_screen" />
-25-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:16:13-67
-26        <activity
-26-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:17:9-23:45
-27            android:name="com.example.theoreticalffscorer.DriveConstants"
-27-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:18:13-43
-28            android:exported="false"
-28-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:19:13-37
-29            android:label="DriveConstants"
-29-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-43
-30            android:parentActivityName="com.example.theoreticalffscorer.TunerIntro"
-30-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:21:13-53
-31            android:theme="@style/FullScreen" />
-31-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:22:13-46
-32        <activity
-32-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:9-28:49
-33            android:name="com.example.theoreticalffscorer.ui.main.TuningProcess"
-33-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:25:13-50
-34            android:exported="false"
-34-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:26:13-37
-35            android:label="@string/title_activity_tuning_process"
-35-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:27:13-66
-36            android:theme="@style/FullScreen" />
-36-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:28:13-46
-37        <activity
-37-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:29:9-33:49
-38            android:name="com.example.theoreticalffscorer.Home"
-38-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:30:13-33
-39            android:exported="false"
-39-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:31:13-37
-40            android:label="Home"
-40-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:32:13-33
-41            android:theme="@style/FullScreen" />
-41-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:33:13-46
-42        <activity
-42-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:34:9-44:20
-43            android:name="com.example.theoreticalffscorer.MainActivity"
-43-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:35:13-41
-44            android:exported="true"
-44-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:36:13-36
-45            android:label="RR Tuner"
-45-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:37:13-37
-46            android:theme="@style/FullScreen" >
-46-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:38:13-46
-47            <intent-filter>
-47-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:39:13-43:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:40:17-69
-48-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:40:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:42:17-77
-50-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:42:27-74
-51            </intent-filter>
-52        </activity>
-53
-54        <meta-data
-54-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:46:9-48:57
-55            android:name="preloaded_fonts"
-55-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:47:13-43
-56            android:resource="@array/preloaded_fonts" />
-56-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:48:13-54
+24-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:14:13-37
+25            android:label="@string/title_activity_main"
+25-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:15:13-56
+26            android:theme="@style/Theme.RoadRunnerTuner.NoActionBar" />
+26-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:16:13-69
+27        <activity
+27-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:17:9-26:20
+28            android:name="com.notnotnerds.roadrunnertuner.splash"
+28-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:18:13-35
+29            android:exported="true"
+29-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:19:13-36
+30            android:label="@string/app_name" >
+30-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-45
+31            <intent-filter>
+31-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:22:17-69
+32-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <uses-library
+38-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+39            android:name="androidx.window.extensions"
+39-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+40            android:required="false" />
+40-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+41        <uses-library
+41-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+42            android:name="androidx.window.sidecar"
+42-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+44
+45        <provider
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+46            android:name="androidx.startup.InitializationProvider"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+47            android:authorities="com.notnotnerds.roadrunnertuner.androidx-startup"
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+48            android:exported="false" >
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\86bbdb4c704f0c6ef69f85fd6941d5d8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+54                android:value="androidx.startup" />
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\60fb03f7868607ff1baa13fa3ab998ab\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+55        </provider>
+56    </application>
 57
-58        <uses-library
-58-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-59            android:name="androidx.window.extensions"
-59-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-60            android:required="false" />
-60-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-61        <uses-library
-61-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-62            android:name="androidx.window.sidecar"
-62-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-63            android:required="false" />
-63-->[androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\819f2f7b90fbd5ba24e31d0c9f850932\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-64
-65        <provider
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-67            android:authorities="com.example.theoreticalffscorer.androidx-startup"
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-68            android:exported="false" >
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-69            <meta-data
-69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-71                android:value="androidx.startup" />
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\39db454ca943e4d6ae7bf175ff33fbf8\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-72            <meta-data
-72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-74                android:value="androidx.startup" />
-74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\4dc7c0429757f6a5acea98e5401439bf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-75        </provider>
-76    </application>
-77
-78</manifest>
+58</manifest>
