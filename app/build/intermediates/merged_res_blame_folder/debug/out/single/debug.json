@@ -8,32 +8,32 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-mdpi\\n3_logo_round.png"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_n3_logo.png.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xxhdpi\\n3_logo.png"
-    },
-    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_n3_logo.png.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xxhdpi\\n3_logo.png"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_n3_logo_foreground.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xxxhdpi\\n3_logo_foreground.png"
     },
     {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\navigation_navigation_sidebar.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\navigation\\navigation_sidebar.xml"
+    },
+    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_n3_logo.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xxxhdpi\\n3_logo.png"
     },
     {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation3.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\navigation\\mobile_navigation3.xml"
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_duck_round.png.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-mdpi\\duck_round.png"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_duck.png.flat",
@@ -86,10 +86,6 @@
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation4.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\navigation\\mobile_navigation4.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_n3_logo.png.flat",
@@ -174,6 +170,10 @@
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_black_24dp.xml.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\xml_root_preferences.xml.flat",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\xml\\root_preferences.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -266,10 +266,6 @@
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation2.xml.flat",
-        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\navigation\\mobile_navigation2.xml"
     },
     {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_n3_logo.png.flat",

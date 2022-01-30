@@ -2,6 +2,8 @@ package com.notnotnerds.roadrunnertuner
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -11,7 +13,11 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.get
+import androidx.preference.Preference
+import androidx.preference.PreferenceFragmentCompat
 import com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding
+import com.notnotnerds.roadrunnertuner.ui.settings.Settings
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
+
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -42,6 +49,7 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -50,8 +58,40 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_settings -> {
+                Toast.makeText(this, "Settings were pressed", Toast.LENGTH_SHORT).show()
+                setContentView(R.layout.fragment_home)
+            }
+            R.id.action_restart -> Toast.makeText(this,
+                "Restarting App (in the future)",
+                Toast.LENGTH_SHORT).show()
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
+
+    fun startTuningProcess(view: android.view.View) {setContentView(R.layout.fragment_gallery)}
+    /*fun showSettings(item: android.view.MenuItem) {setContentView(R.layout.app_bar_main)}
+    fun onPreferenceStartFragment(caller: PreferenceFragmentCompat, pref: Preference): Boolean {
+        // Instantiate the new Fragment
+        val args = pref.extras
+        val fragment = supportFragmentManager.fragmentFactory.instantiate(
+            classLoader,
+            pref.fragment)
+        fragment.arguments = args
+        fragment.setTargetFragment(caller, 0)
+        // Replace the existing Fragment with the new Fragment
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.action_settings, fragment)
+            .addToBackStack(null)
+            .commit()
+        return true
+    }
+*/
 }

@@ -74,6 +74,8 @@ int array com_google_android_gms_fonts_certs 0x7f030000
 int array com_google_android_gms_fonts_certs_dev 0x7f030001
 int array com_google_android_gms_fonts_certs_prod 0x7f030002
 int array preloaded_fonts 0x7f030003
+int array reply_entries 0x7f030004
+int array reply_values 0x7f030005
 int attr SharedValue 0x7f040000
 int attr SharedValueId 0x7f040001
 int attr action 0x7f040002
@@ -116,10 +118,14 @@ int attr actionViewClass 0x7f040026
 int attr activityAction 0x7f040027
 int attr activityChooserViewStyle 0x7f040028
 int attr activityName 0x7f040029
+int attr adjustable 0x7f04046e
 int attr alertDialogButtonGroupStyle 0x7f04002a
 int attr alertDialogCenterButtons 0x7f04002b
 int attr alertDialogStyle 0x7f04002c
 int attr alertDialogTheme 0x7f04002d
+int attr allowDividerAbove 0x7f04046f
+int attr allowDividerAfterLastItem 0x7f040470
+int attr allowDividerBelow 0x7f040471
 int attr allowStacking 0x7f04002e
 int attr alpha 0x7f04002f
 int attr alphabeticModifiers 0x7f040030
@@ -229,6 +235,7 @@ int attr carousel_touchUpMode 0x7f040097
 int attr carousel_touchUp_dampeningFactor 0x7f040098
 int attr carousel_touchUp_velocityThreshold 0x7f040099
 int attr chainUseRtl 0x7f04009a
+int attr checkBoxPreferenceStyle 0x7f040472
 int attr checkMarkCompat 0x7f04009b
 int attr checkMarkTint 0x7f04009c
 int attr checkMarkTintMode 0x7f04009d
@@ -402,13 +409,21 @@ int attr defaultDuration 0x7f040144
 int attr defaultNavHost 0x7f040145
 int attr defaultQueryHint 0x7f040146
 int attr defaultState 0x7f040147
+int attr defaultValue 0x7f040473
 int attr deltaPolarAngle 0x7f040148
 int attr deltaPolarRadius 0x7f040149
+int attr dependency 0x7f040474
 int attr deriveConstraintsFrom 0x7f04014a
 int attr destination 0x7f04014b
 int attr dialogCornerRadius 0x7f04014c
+int attr dialogIcon 0x7f040475
+int attr dialogLayout 0x7f040476
+int attr dialogMessage 0x7f040477
+int attr dialogPreferenceStyle 0x7f040478
 int attr dialogPreferredPadding 0x7f04014d
 int attr dialogTheme 0x7f04014e
+int attr dialogTitle 0x7f040479
+int attr disableDependentsState 0x7f04047a
 int attr displayOptions 0x7f04014f
 int attr divider 0x7f040150
 int attr dividerColor 0x7f040151
@@ -436,17 +451,21 @@ int attr drawerLayoutCornerSize 0x7f040166
 int attr drawerLayoutStyle 0x7f040167
 int attr dropDownListViewStyle 0x7f040168
 int attr dropdownListPreferredItemHeight 0x7f040169
+int attr dropdownPreferenceStyle 0x7f04047b
 int attr duration 0x7f04016a
 int attr dynamicColorThemeOverlay 0x7f04016b
 int attr editTextBackground 0x7f04016c
 int attr editTextColor 0x7f04016d
+int attr editTextPreferenceStyle 0x7f04047c
 int attr editTextStyle 0x7f04016e
 int attr elevation 0x7f04016f
 int attr elevationOverlayAccentColor 0x7f040170
 int attr elevationOverlayColor 0x7f040171
 int attr elevationOverlayEnabled 0x7f040172
 int attr emojiCompatEnabled 0x7f040173
+int attr enableCopying 0x7f04047d
 int attr enableEdgeToEdge 0x7f040174
+int attr enabled 0x7f04047e
 int attr endIconCheckable 0x7f040175
 int attr endIconContentDescription 0x7f040176
 int attr endIconDrawable 0x7f040177
@@ -457,6 +476,8 @@ int attr enforceMaterialTheme 0x7f04017b
 int attr enforceTextAppearance 0x7f04017c
 int attr ensureMinTouchTargetSize 0x7f04017d
 int attr enterAnim 0x7f04017e
+int attr entries 0x7f04047f
+int attr entryValues 0x7f040480
 int attr errorContentDescription 0x7f04017f
 int attr errorEnabled 0x7f040180
 int attr errorIconDrawable 0x7f040181
@@ -541,6 +562,7 @@ int attr fontVariationSettings 0x7f0401cf
 int attr fontWeight 0x7f0401d0
 int attr forceApplySystemWindowInsetTop 0x7f0401d1
 int attr foregroundInsidePadding 0x7f0401d2
+int attr fragment 0x7f040481
 int attr framePosition 0x7f0401d3
 int attr gapBetweenBars 0x7f0401d4
 int attr gestureInsetBottomIgnored 0x7f0401d5
@@ -573,6 +595,7 @@ int attr iconEndPadding 0x7f0401ef
 int attr iconGravity 0x7f0401f0
 int attr iconPadding 0x7f0401f1
 int attr iconSize 0x7f0401f2
+int attr iconSpaceReserved 0x7f040482
 int attr iconStartPadding 0x7f0401f3
 int attr iconTint 0x7f0401f4
 int attr iconTintMode 0x7f0401f5
@@ -592,10 +615,12 @@ int attr indicatorDirectionLinear 0x7f040202
 int attr indicatorInset 0x7f040203
 int attr indicatorSize 0x7f040204
 int attr initialActivityCount 0x7f040205
+int attr initialExpandedChildrenCount 0x7f040483
 int attr insetForeground 0x7f040206
 int attr isLightTheme 0x7f040207
 int attr isMaterial3Theme 0x7f040208
 int attr isMaterialTheme 0x7f040209
+int attr isPreferenceVisible 0x7f040484
 int attr itemActiveIndicatorStyle 0x7f04020a
 int attr itemBackground 0x7f04020b
 int attr itemFillColor 0x7f04020c
@@ -625,6 +650,7 @@ int attr itemTextAppearanceActive 0x7f040223
 int attr itemTextAppearanceInactive 0x7f040224
 int attr itemTextColor 0x7f040225
 int attr itemVerticalPadding 0x7f040226
+int attr key 0x7f040485
 int attr keyPositionType 0x7f040227
 int attr keyboardIcon 0x7f040228
 int attr keylines 0x7f040229
@@ -782,6 +808,7 @@ int attr menu 0x7f0402c0
 int attr menuGravity 0x7f0402c1
 int attr methodName 0x7f0402c2
 int attr mimeType 0x7f0402c3
+int attr min 0x7f040486
 int attr minHeight 0x7f0402c4
 int attr minHideDelay 0x7f0402c5
 int attr minSeparation 0x7f0402c6
@@ -830,6 +857,7 @@ int attr navigationIconTint 0x7f0402f0
 int attr navigationMode 0x7f0402f1
 int attr navigationRailStyle 0x7f0402f2
 int attr navigationViewStyle 0x7f0402f3
+int attr negativeButtonText 0x7f040487
 int attr nestedScrollFlags 0x7f0402f4
 int attr nestedScrollViewStyle 0x7f0402f5
 int attr nestedScrollable 0x7f0402f6
@@ -843,6 +871,8 @@ int attr onPositiveCross 0x7f0402fd
 int attr onShow 0x7f0402fe
 int attr onStateTransition 0x7f0402ff
 int attr onTouchUp 0x7f040300
+int attr order 0x7f040488
+int attr orderingFromXml 0x7f040489
 int attr overlapAnchor 0x7f040301
 int attr overlay 0x7f040302
 int attr paddingBottomNoButtons 0x7f040303
@@ -868,6 +898,7 @@ int attr percentWidth 0x7f040316
 int attr percentX 0x7f040317
 int attr percentY 0x7f040318
 int attr perpendicularPath_percent 0x7f040319
+int attr persistent 0x7f04048a
 int attr pivotAnchor 0x7f04031a
 int attr placeholderActivityName 0x7f04031b
 int attr placeholderText 0x7f04031c
@@ -884,6 +915,16 @@ int attr popupMenuBackground 0x7f040326
 int attr popupMenuStyle 0x7f040327
 int attr popupTheme 0x7f040328
 int attr popupWindowStyle 0x7f040329
+int attr positiveButtonText 0x7f04048b
+int attr preferenceCategoryStyle 0x7f04048c
+int attr preferenceCategoryTitleTextAppearance 0x7f04048d
+int attr preferenceFragmentCompatStyle 0x7f04048e
+int attr preferenceFragmentListStyle 0x7f04048f
+int attr preferenceFragmentStyle 0x7f040490
+int attr preferenceInformationStyle 0x7f040491
+int attr preferenceScreenStyle 0x7f040492
+int attr preferenceStyle 0x7f040493
+int attr preferenceTheme 0x7f040494
 int attr prefixText 0x7f04032a
 int attr prefixTextAppearance 0x7f04032b
 int attr prefixTextColor 0x7f04032c
@@ -929,7 +970,10 @@ int attr searchIcon 0x7f040353
 int attr searchViewStyle 0x7f040354
 int attr secondaryActivityAction 0x7f040355
 int attr secondaryActivityName 0x7f040356
+int attr seekBarIncrement 0x7f040495
+int attr seekBarPreferenceStyle 0x7f040496
 int attr seekBarStyle 0x7f040357
+int attr selectable 0x7f040497
 int attr selectableItemBackground 0x7f040358
 int attr selectableItemBackgroundBorderless 0x7f040359
 int attr selectionRequired 0x7f04035a
@@ -941,17 +985,20 @@ int attr shapeAppearanceMediumComponent 0x7f04035f
 int attr shapeAppearanceOverlay 0x7f040360
 int attr shapeAppearanceSmallComponent 0x7f040361
 int attr shortcutMatchRequired 0x7f040362
+int attr shouldDisableView 0x7f040498
 int attr showAnimationBehavior 0x7f040363
 int attr showAsAction 0x7f040364
 int attr showDelay 0x7f040365
 int attr showDividers 0x7f040366
 int attr showMotionSpec 0x7f040367
 int attr showPaths 0x7f040368
+int attr showSeekBarValue 0x7f040499
 int attr showText 0x7f040369
 int attr showTitle 0x7f04036a
 int attr shrinkMotionSpec 0x7f04036b
 int attr singleChoiceItemLayout 0x7f04036c
 int attr singleLine 0x7f04036d
+int attr singleLineTitle 0x7f04049a
 int attr singleSelection 0x7f04036e
 int attr sizePercent 0x7f04036f
 int attr sliderStyle 0x7f040370
@@ -1007,10 +1054,17 @@ int attr suffixText 0x7f0403a1
 int attr suffixTextAppearance 0x7f0403a2
 int attr suffixTextColor 0x7f0403a3
 int attr suggestionRowLayout 0x7f0403a4
+int attr summary 0x7f04049b
+int attr summaryOff 0x7f04049c
+int attr summaryOn 0x7f04049d
 int attr switchMinWidth 0x7f0403a5
 int attr switchPadding 0x7f0403a6
+int attr switchPreferenceCompatStyle 0x7f04049e
+int attr switchPreferenceStyle 0x7f04049f
 int attr switchStyle 0x7f0403a7
 int attr switchTextAppearance 0x7f0403a8
+int attr switchTextOff 0x7f0404a0
+int attr switchTextOn 0x7f0404a1
 int attr tabBackground 0x7f0403a9
 int attr tabContentStart 0x7f0403aa
 int attr tabGravity 0x7f0403ab
@@ -1175,9 +1229,11 @@ int attr triggerReceiver 0x7f040449
 int attr triggerSlack 0x7f04044a
 int attr ttcIndex 0x7f04044b
 int attr upDuration 0x7f04044c
+int attr updatesContinuously 0x7f0404a2
 int attr uri 0x7f04044d
 int attr useCompatPadding 0x7f04044e
 int attr useMaterialThemeColors 0x7f04044f
+int attr useSimpleSummaryProvider 0x7f0404a3
 int attr values 0x7f040450
 int attr verticalOffset 0x7f040451
 int attr verticalOffsetWithText 0x7f040452
@@ -1195,6 +1251,7 @@ int attr wavePeriod 0x7f04045d
 int attr wavePhase 0x7f04045e
 int attr waveShape 0x7f04045f
 int attr waveVariesBy 0x7f040460
+int attr widgetLayout 0x7f0404a4
 int attr windowActionBar 0x7f040461
 int attr windowActionBarOverlay 0x7f040462
 int attr windowActionModeOverlay 0x7f040463
@@ -1210,6 +1267,7 @@ int attr yearStyle 0x7f04046c
 int attr yearTodayStyle 0x7f04046d
 int bool abc_action_bar_embed_tabs 0x7f050000
 int bool abc_config_actionMenuItemAllCaps 0x7f050001
+int bool config_materialPreferenceIconSpaceReserved 0x7f050012
 int bool m3_sys_typescale_body_large_text_all_caps 0x7f050002
 int bool m3_sys_typescale_body_medium_text_all_caps 0x7f050003
 int bool m3_sys_typescale_body_small_text_all_caps 0x7f050004
@@ -1793,6 +1851,7 @@ int color n3_logo_background 0x7f060233
 int color n3_white 0x7f060234
 int color notification_action_color_filter 0x7f060235
 int color notification_icon_bg_color 0x7f060236
+int color preference_fallback_accent_color 0x7f060257
 int color primary_dark_material_dark 0x7f060237
 int color primary_dark_material_light 0x7f060238
 int color primary_material_dark 0x7f060239
@@ -2392,6 +2451,11 @@ int dimen notification_small_icon_size_as_large 0x7f070233
 int dimen notification_subtext_size 0x7f070234
 int dimen notification_top_pad 0x7f070235
 int dimen notification_top_pad_large_text 0x7f070236
+int dimen preference_dropdown_padding_start 0x7f07024d
+int dimen preference_icon_minWidth 0x7f07024e
+int dimen preference_seekbar_padding_horizontal 0x7f07024f
+int dimen preference_seekbar_padding_vertical 0x7f070250
+int dimen preference_seekbar_value_minWidth 0x7f070251
 int dimen sliding_pane_detail_pane_width 0x7f070237
 int dimen test_dimen 0x7f070238
 int dimen test_mtrl_calendar_day_cornerSize 0x7f070239
@@ -2510,6 +2574,7 @@ int drawable design_password_eye 0x7f080063
 int drawable design_snackbar_background 0x7f080064
 int drawable duck_background 0x7f080065
 int drawable duck_foreground 0x7f080066
+int drawable ic_arrow_down_24dp 0x7f0800a7
 int drawable ic_baby_rr 0x7f0800a6
 int drawable ic_clock_black_24dp 0x7f080067
 int drawable ic_dashboard_black_24dp 0x7f080068
@@ -2569,6 +2634,7 @@ int drawable notification_template_icon_bg 0x7f08009d
 int drawable notification_template_icon_low_bg 0x7f08009e
 int drawable notification_tile_bg 0x7f08009f
 int drawable notify_panel_notification_icon_bg 0x7f0800a0
+int drawable preference_list_divider_material 0x7f0800a8
 int drawable side_nav_bar 0x7f0800a1
 int drawable test_custom_background 0x7f0800a2
 int drawable test_level_drawable 0x7f0800a3
@@ -2583,6 +2649,7 @@ int id CTRL 0x7f0a0004
 int id FUNCTION 0x7f0a0005
 int id META 0x7f0a0006
 int id NO_DEBUG 0x7f0a0007
+int id Proceed_To_Tune 0x7f0a01fe
 int id SHIFT 0x7f0a0008
 int id SHOW_ALL 0x7f0a0009
 int id SHOW_PATH 0x7f0a000a
@@ -2791,6 +2858,7 @@ int id homeAsUp 0x7f0a00d3
 int id honorRequest 0x7f0a00d4
 int id horizontal_only 0x7f0a00d5
 int id icon 0x7f0a00d6
+int id icon_frame 0x7f0a0200
 int id icon_group 0x7f0a00d7
 int id ifRoom 0x7f0a00d8
 int id ignore 0x7f0a00d9
@@ -2847,8 +2915,6 @@ int id material_value_index 0x7f0a010b
 int id message 0x7f0a010c
 int id middle 0x7f0a010d
 int id mini 0x7f0a010e
-int id mobile_navigation2 0x7f0a010f
-int id mobile_navigation3 0x7f0a0110
 int id mobile_navigation4 0x7f0a0111
 int id month_grid 0x7f0a0112
 int id month_navigation_bar 0x7f0a0113
@@ -2895,10 +2961,7 @@ int id navigation_bar_item_icon_view 0x7f0a013a
 int id navigation_bar_item_labels_group 0x7f0a013b
 int id navigation_bar_item_large_label_view 0x7f0a013c
 int id navigation_bar_item_small_label_view 0x7f0a013d
-int id navigation_dashboard 0x7f0a013e
 int id navigation_header_container 0x7f0a013f
-int id navigation_home 0x7f0a0140
-int id navigation_notifications 0x7f0a0141
 int id never 0x7f0a0142
 int id neverCompleteToEnd 0x7f0a0143
 int id neverCompleteToStart 0x7f0a0144
@@ -2935,6 +2998,7 @@ int id progress_horizontal 0x7f0a0162
 int id radio 0x7f0a0163
 int id ratio 0x7f0a0164
 int id rectangles 0x7f0a0165
+int id recycler_view 0x7f0a0201
 int id reverseSawtooth 0x7f0a0166
 int id right 0x7f0a0167
 int id rightToLeft 0x7f0a0168
@@ -2963,9 +3027,12 @@ int id search_mag_icon 0x7f0a017e
 int id search_plate 0x7f0a017f
 int id search_src_text 0x7f0a0180
 int id search_voice_btn 0x7f0a0181
+int id seekbar 0x7f0a0202
+int id seekbar_value 0x7f0a0203
 int id select_dialog_listview 0x7f0a0182
 int id selected 0x7f0a0183
 int id selection_type 0x7f0a0184
+int id settings_page 0x7f0a0206
 int id sharedValueSet 0x7f0a0185
 int id sharedValueUnset 0x7f0a0186
 int id shortcut 0x7f0a0187
@@ -2985,6 +3052,7 @@ int id snapMargins 0x7f0a0194
 int id south 0x7f0a0195
 int id spacer 0x7f0a0196
 int id special_effects_controller_view_tag 0x7f0a0197
+int id spinner 0x7f0a0204
 int id spline 0x7f0a0198
 int id split_action_bar 0x7f0a0199
 int id spread 0x7f0a019a
@@ -3006,6 +3074,7 @@ int id stretch 0x7f0a01a9
 int id submenuarrow 0x7f0a01aa
 int id submit_area 0x7f0a01ab
 int id supportScrollUp 0x7f0a01ac
+int id switchWidget 0x7f0a0205
 int id tabMode 0x7f0a01ad
 int id tag_accessibility_actions 0x7f0a01ae
 int id tag_accessibility_clickable_spans 0x7f0a01af
@@ -3191,11 +3260,13 @@ int layout design_navigation_menu 0x7f0d002c
 int layout design_navigation_menu_item 0x7f0d002d
 int layout design_text_input_end_icon 0x7f0d002e
 int layout design_text_input_start_icon 0x7f0d002f
+int layout expand_button 0x7f0d007d
 int layout fragment_dashboard 0x7f0d0030
 int layout fragment_gallery 0x7f0d0031
 int layout fragment_home 0x7f0d0032
 int layout fragment_notifications 0x7f0d0033
 int layout fragment_slideshow 0x7f0d0034
+int layout image_frame 0x7f0d007e
 int layout m3_alert_dialog 0x7f0d0035
 int layout m3_alert_dialog_actions 0x7f0d0036
 int layout m3_alert_dialog_title 0x7f0d0037
@@ -3249,6 +3320,22 @@ int layout notification_template_custom_big 0x7f0d0066
 int layout notification_template_icon_group 0x7f0d0067
 int layout notification_template_part_chronometer 0x7f0d0068
 int layout notification_template_part_time 0x7f0d0069
+int layout preference 0x7f0d007f
+int layout preference_category 0x7f0d0080
+int layout preference_category_material 0x7f0d0081
+int layout preference_dialog_edittext 0x7f0d0082
+int layout preference_dropdown 0x7f0d0083
+int layout preference_dropdown_material 0x7f0d0084
+int layout preference_information 0x7f0d0085
+int layout preference_information_material 0x7f0d0086
+int layout preference_list_fragment 0x7f0d0087
+int layout preference_material 0x7f0d0088
+int layout preference_recyclerview 0x7f0d0089
+int layout preference_widget_checkbox 0x7f0d008a
+int layout preference_widget_seekbar 0x7f0d008b
+int layout preference_widget_seekbar_material 0x7f0d008c
+int layout preference_widget_switch 0x7f0d008d
+int layout preference_widget_switch_compat 0x7f0d008e
 int layout select_dialog_item_material 0x7f0d006a
 int layout select_dialog_multichoice_material 0x7f0d006b
 int layout select_dialog_singlechoice_material 0x7f0d006c
@@ -3279,9 +3366,7 @@ int mipmap ic_launcher_round 0x7f0f0003
 int mipmap n3_logo 0x7f0f0004
 int mipmap n3_logo_foreground 0x7f0f0005
 int mipmap n3_logo_round 0x7f0f0006
-int navigation mobile_navigation2 0x7f100000
-int navigation mobile_navigation3 0x7f100001
-int navigation mobile_navigation4 0x7f100002
+int navigation navigation_sidebar 0x7f100003
 int plurals mtrl_badge_content_description 0x7f110000
 int string abc_action_bar_home_description 0x7f120000
 int string abc_action_bar_up_description 0x7f120001
@@ -3314,6 +3399,9 @@ int string action_settings 0x7f12001b
 int string androidx_startup 0x7f12001c
 int string app_name 0x7f12001d
 int string appbar_scrolling_view_behavior 0x7f12001e
+int string attachment_summary_off 0x7f120097
+int string attachment_summary_on 0x7f120098
+int string attachment_title 0x7f120099
 int string bottom_sheet_behavior 0x7f12001f
 int string bottomsheet_action_expand_halfway 0x7f120020
 int string bug_reporter 0x7f120093
@@ -3322,8 +3410,10 @@ int string character_counter_overflowed_content_description 0x7f120022
 int string character_counter_pattern 0x7f120023
 int string chip_text 0x7f120024
 int string clear_text_end_icon_content_description 0x7f120025
+int string copy 0x7f12009a
 int string dashboard 0x7f120095
 int string error_icon_content_description 0x7f120026
+int string expand_button_title 0x7f12009b
 int string exposed_dropdown_menu_content_description 0x7f120027
 int string fab_transformation_scrim_behavior 0x7f120028
 int string fab_transformation_sheet_behavior 0x7f120029
@@ -3378,6 +3468,7 @@ int string material_timepicker_text_input_mode_description 0x7f120059
 int string menu_gallery 0x7f12005a
 int string menu_home 0x7f12005b
 int string menu_slideshow 0x7f12005c
+int string messages_header 0x7f12009c
 int string mtrl_badge_numberless_content_description 0x7f12005d
 int string mtrl_chip_close_icon_content_description 0x7f12005e
 int string mtrl_exceed_max_badge_number_content_description 0x7f12005f
@@ -3421,19 +3512,28 @@ int string nav_header_subtitle 0x7f120084
 int string nav_header_title 0x7f120085
 int string navigation_drawer_close 0x7f120086
 int string navigation_drawer_open 0x7f120087
+int string not_set 0x7f12009d
 int string password_toggle_content_description 0x7f120088
 int string path_password_eye 0x7f120089
 int string path_password_eye_mask_strike_through 0x7f12008a
 int string path_password_eye_mask_visible 0x7f12008b
 int string path_password_strike_through 0x7f12008c
+int string preference_copied 0x7f12009e
+int string reply_title 0x7f12009f
 int string restart 0x7f120096
 int string search_menu_title 0x7f12008d
+int string signature_title 0x7f1200a0
 int string status_bar_notification_info_overflow 0x7f12008e
 int string string_bug_reporter 0x7f120094
+int string summary_collapsed_preference_list 0x7f1200a1
+int string sync_header 0x7f1200a2
+int string sync_title 0x7f1200a3
 int string title_activity_main 0x7f12008f
 int string title_dashboard 0x7f120090
 int string title_home 0x7f120091
 int string title_notifications 0x7f120092
+int string v7_preference_off 0x7f1200a4
+int string v7_preference_on 0x7f1200a5
 int style AlertDialog_AppCompat 0x7f130000
 int style AlertDialog_AppCompat_Light 0x7f130001
 int style AndroidThemeColorAccentYellow 0x7f130002
@@ -3744,6 +3844,37 @@ int style Platform_V21_AppCompat_Light 0x7f130132
 int style Platform_V25_AppCompat 0x7f130133
 int style Platform_V25_AppCompat_Light 0x7f130134
 int style Platform_Widget_AppCompat_Spinner 0x7f130135
+int style Preference 0x7f1303fe
+int style Preference_Category 0x7f1303ff
+int style Preference_Category_Material 0x7f130400
+int style Preference_CheckBoxPreference 0x7f130401
+int style Preference_CheckBoxPreference_Material 0x7f130402
+int style Preference_DialogPreference 0x7f130403
+int style Preference_DialogPreference_EditTextPreference 0x7f130404
+int style Preference_DialogPreference_EditTextPreference_Material 0x7f130405
+int style Preference_DialogPreference_Material 0x7f130406
+int style Preference_DropDown 0x7f130407
+int style Preference_DropDown_Material 0x7f130408
+int style Preference_Information 0x7f130409
+int style Preference_Information_Material 0x7f13040a
+int style Preference_Material 0x7f13040b
+int style Preference_PreferenceScreen 0x7f13040c
+int style Preference_PreferenceScreen_Material 0x7f13040d
+int style Preference_SeekBarPreference 0x7f13040e
+int style Preference_SeekBarPreference_Material 0x7f13040f
+int style Preference_SwitchPreference 0x7f130410
+int style Preference_SwitchPreference_Material 0x7f130411
+int style Preference_SwitchPreferenceCompat 0x7f130412
+int style Preference_SwitchPreferenceCompat_Material 0x7f130413
+int style PreferenceCategoryTitleTextStyle 0x7f130414
+int style PreferenceFragment 0x7f130415
+int style PreferenceFragment_Material 0x7f130416
+int style PreferenceFragmentList 0x7f130417
+int style PreferenceFragmentList_Material 0x7f130418
+int style PreferenceSummaryTextStyle 0x7f130419
+int style PreferenceThemeOverlay 0x7f13041a
+int style PreferenceThemeOverlay_v14 0x7f13041b
+int style PreferenceThemeOverlay_v14_Material 0x7f13041c
 int style RtlOverlay_DialogWindowTitle_AppCompat 0x7f130136
 int style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem 0x7f130137
 int style RtlOverlay_Widget_AppCompat_DialogTitle_Icon 0x7f130138
@@ -4724,6 +4855,9 @@ int styleable AppCompatTheme_windowFixedWidthMinor 123
 int styleable AppCompatTheme_windowMinWidthMajor 124
 int styleable AppCompatTheme_windowMinWidthMinor 125
 int styleable AppCompatTheme_windowNoTitle 126
+int[] styleable BackgroundStyle { 0x0101030e, 0x7f040358 }
+int styleable BackgroundStyle_android_selectableItemBackground 0
+int styleable BackgroundStyle_selectableItemBackground 1
 int[] styleable Badge { 0x7f040046, 0x7f040050, 0x7f040051, 0x7f040053, 0x7f040054, 0x7f040055, 0x7f0401eb, 0x7f0401ec, 0x7f0402b9, 0x7f0402f8, 0x7f040451, 0x7f040452 }
 int styleable Badge_backgroundColor 0
 int styleable Badge_badgeGravity 1
@@ -4813,6 +4947,13 @@ int styleable Carousel_carousel_previousState 6
 int styleable Carousel_carousel_touchUpMode 7
 int styleable Carousel_carousel_touchUp_dampeningFactor 8
 int styleable Carousel_carousel_touchUp_velocityThreshold 9
+int[] styleable CheckBoxPreference { 0x010101ef, 0x010101f0, 0x010101f1, 0x7f04047a, 0x7f04049c, 0x7f04049d }
+int styleable CheckBoxPreference_android_summaryOn 0
+int styleable CheckBoxPreference_android_summaryOff 1
+int styleable CheckBoxPreference_android_disableDependentsState 2
+int styleable CheckBoxPreference_disableDependentsState 3
+int styleable CheckBoxPreference_summaryOff 4
+int styleable CheckBoxPreference_summaryOn 5
 int[] styleable CheckedTextView { 0x01010108, 0x7f04009b, 0x7f04009c, 0x7f04009d }
 int styleable CheckedTextView_android_checkMark 0
 int styleable CheckedTextView_checkMarkCompat 1
@@ -5424,6 +5565,19 @@ int styleable CustomAttribute_customStringValue 9
 int styleable CustomAttribute_methodName 10
 int[] styleable DialogFragmentNavigator { 0x01010003 }
 int styleable DialogFragmentNavigator_android_name 0
+int[] styleable DialogPreference { 0x010101f2, 0x010101f3, 0x010101f4, 0x010101f5, 0x010101f6, 0x010101f7, 0x7f040475, 0x7f040476, 0x7f040477, 0x7f040479, 0x7f040487, 0x7f04048b }
+int styleable DialogPreference_android_dialogTitle 0
+int styleable DialogPreference_android_dialogMessage 1
+int styleable DialogPreference_android_dialogIcon 2
+int styleable DialogPreference_android_positiveButtonText 3
+int styleable DialogPreference_android_negativeButtonText 4
+int styleable DialogPreference_android_dialogLayout 5
+int styleable DialogPreference_dialogIcon 6
+int styleable DialogPreference_dialogLayout 7
+int styleable DialogPreference_dialogMessage 8
+int styleable DialogPreference_dialogTitle 9
+int styleable DialogPreference_negativeButtonText 10
+int styleable DialogPreference_positiveButtonText 11
 int[] styleable DrawerArrowToggle { 0x7f04003a, 0x7f04003b, 0x7f040056, 0x7f0400dd, 0x7f040160, 0x7f0401d4, 0x7f040375, 0x7f04040d }
 int styleable DrawerArrowToggle_arrowHeadLength 0
 int styleable DrawerArrowToggle_arrowShaftLength 1
@@ -5435,6 +5589,8 @@ int styleable DrawerArrowToggle_spinBars 6
 int styleable DrawerArrowToggle_thickness 7
 int[] styleable DrawerLayout { 0x7f04016f }
 int styleable DrawerLayout_elevation 0
+int[] styleable EditTextPreference { 0x7f0404a3 }
+int styleable EditTextPreference_useSimpleSummaryProvider 0
 int[] styleable ExtendedFloatingActionButton { 0x7f0400d4, 0x7f04016f, 0x7f040192, 0x7f0401e2, 0x7f040367, 0x7f04036b }
 int styleable ExtendedFloatingActionButton_collapsedSize 0
 int styleable ExtendedFloatingActionButton_elevation 1
@@ -5728,6 +5884,12 @@ int styleable LinearProgressIndicator_indicatorDirectionLinear 1
 int[] styleable ListPopupWindow { 0x010102ac, 0x010102ad }
 int styleable ListPopupWindow_android_dropDownHorizontalOffset 0
 int styleable ListPopupWindow_android_dropDownVerticalOffset 1
+int[] styleable ListPreference { 0x010100b2, 0x010101f8, 0x7f04047f, 0x7f040480, 0x7f0404a3 }
+int styleable ListPreference_android_entries 0
+int styleable ListPreference_android_entryValues 1
+int styleable ListPreference_entries 2
+int styleable ListPreference_entryValues 3
+int styleable ListPreference_useSimpleSummaryProvider 4
 int[] styleable MaterialAlertDialog { 0x7f040047, 0x7f040048, 0x7f040049, 0x7f04004a }
 int styleable MaterialAlertDialog_backgroundInsetBottom 0
 int styleable MaterialAlertDialog_backgroundInsetEnd 1
@@ -5943,6 +6105,11 @@ int[] styleable MotionTelltales { 0x7f0403c7, 0x7f0403c8, 0x7f0403c9 }
 int styleable MotionTelltales_telltales_tailColor 0
 int styleable MotionTelltales_telltales_tailScale 1
 int styleable MotionTelltales_telltales_velocityMode 2
+int[] styleable MultiSelectListPreference { 0x010100b2, 0x010101f8, 0x7f04047f, 0x7f040480 }
+int styleable MultiSelectListPreference_android_entries 0
+int styleable MultiSelectListPreference_android_entryValues 1
+int styleable MultiSelectListPreference_entries 2
+int styleable MultiSelectListPreference_entryValues 3
 int[] styleable NavAction { 0x010100d0, 0x7f04014b, 0x7f04017e, 0x7f040186, 0x7f04022f, 0x7f040321, 0x7f040322, 0x7f040323, 0x7f040324, 0x7f040325, 0x7f040346 }
 int styleable NavAction_android_id 0
 int styleable NavAction_destination 1
@@ -6066,6 +6233,79 @@ int styleable PopupWindow_android_popupAnimationStyle 1
 int styleable PopupWindow_overlapAnchor 2
 int[] styleable PopupWindowBackgroundState { 0x7f04038b }
 int styleable PopupWindowBackgroundState_state_above_anchor 0
+int[] styleable Preference { 0x01010002, 0x0101000d, 0x0101000e, 0x010100f2, 0x010101e1, 0x010101e6, 0x010101e8, 0x010101e9, 0x010101ea, 0x010101eb, 0x010101ec, 0x010101ed, 0x010101ee, 0x010102e3, 0x0101055c, 0x01010561, 0x7f0401ee, 0x7f040230, 0x7f04041f, 0x7f04046f, 0x7f040471, 0x7f040473, 0x7f040474, 0x7f04047d, 0x7f04047e, 0x7f040481, 0x7f040482, 0x7f040484, 0x7f040485, 0x7f040488, 0x7f04048a, 0x7f040497, 0x7f040498, 0x7f04049a, 0x7f04049b, 0x7f0404a4 }
+int styleable Preference_android_icon 0
+int styleable Preference_android_persistent 1
+int styleable Preference_android_enabled 2
+int styleable Preference_android_layout 3
+int styleable Preference_android_title 4
+int styleable Preference_android_selectable 5
+int styleable Preference_android_key 6
+int styleable Preference_android_summary 7
+int styleable Preference_android_order 8
+int styleable Preference_android_widgetLayout 9
+int styleable Preference_android_dependency 10
+int styleable Preference_android_defaultValue 11
+int styleable Preference_android_shouldDisableView 12
+int styleable Preference_android_fragment 13
+int styleable Preference_android_singleLineTitle 14
+int styleable Preference_android_iconSpaceReserved 15
+int styleable Preference_icon 16
+int styleable Preference_layout 17
+int styleable Preference_title 18
+int styleable Preference_allowDividerAbove 19
+int styleable Preference_allowDividerBelow 20
+int styleable Preference_defaultValue 21
+int styleable Preference_dependency 22
+int styleable Preference_enableCopying 23
+int styleable Preference_enabled 24
+int styleable Preference_fragment 25
+int styleable Preference_iconSpaceReserved 26
+int styleable Preference_isPreferenceVisible 27
+int styleable Preference_key 28
+int styleable Preference_order 29
+int styleable Preference_persistent 30
+int styleable Preference_selectable 31
+int styleable Preference_shouldDisableView 32
+int styleable Preference_singleLineTitle 33
+int styleable Preference_summary 34
+int styleable Preference_widgetLayout 35
+int[] styleable PreferenceFragment { 0x010100f2, 0x01010129, 0x0101012a, 0x7f040470 }
+int styleable PreferenceFragment_android_layout 0
+int styleable PreferenceFragment_android_divider 1
+int styleable PreferenceFragment_android_dividerHeight 2
+int styleable PreferenceFragment_allowDividerAfterLastItem 3
+int[] styleable PreferenceFragmentCompat { 0x010100f2, 0x01010129, 0x0101012a, 0x7f040470 }
+int styleable PreferenceFragmentCompat_android_layout 0
+int styleable PreferenceFragmentCompat_android_divider 1
+int styleable PreferenceFragmentCompat_android_dividerHeight 2
+int styleable PreferenceFragmentCompat_allowDividerAfterLastItem 3
+int[] styleable PreferenceGroup { 0x010101e7, 0x7f040483, 0x7f040489 }
+int styleable PreferenceGroup_android_orderingFromXml 0
+int styleable PreferenceGroup_initialExpandedChildrenCount 1
+int styleable PreferenceGroup_orderingFromXml 2
+int[] styleable PreferenceImageView { 0x0101011f, 0x01010120, 0x7f0402ba, 0x7f0402be }
+int styleable PreferenceImageView_android_maxWidth 0
+int styleable PreferenceImageView_android_maxHeight 1
+int styleable PreferenceImageView_maxHeight 2
+int styleable PreferenceImageView_maxWidth 3
+int[] styleable PreferenceTheme { 0x7f040472, 0x7f040478, 0x7f04047b, 0x7f04047c, 0x7f04048c, 0x7f04048d, 0x7f04048e, 0x7f04048f, 0x7f040490, 0x7f040491, 0x7f040492, 0x7f040493, 0x7f040494, 0x7f040496, 0x7f04049e, 0x7f04049f }
+int styleable PreferenceTheme_checkBoxPreferenceStyle 0
+int styleable PreferenceTheme_dialogPreferenceStyle 1
+int styleable PreferenceTheme_dropdownPreferenceStyle 2
+int styleable PreferenceTheme_editTextPreferenceStyle 3
+int styleable PreferenceTheme_preferenceCategoryStyle 4
+int styleable PreferenceTheme_preferenceCategoryTitleTextAppearance 5
+int styleable PreferenceTheme_preferenceFragmentCompatStyle 6
+int styleable PreferenceTheme_preferenceFragmentListStyle 7
+int styleable PreferenceTheme_preferenceFragmentStyle 8
+int styleable PreferenceTheme_preferenceInformationStyle 9
+int styleable PreferenceTheme_preferenceScreenStyle 10
+int styleable PreferenceTheme_preferenceStyle 11
+int styleable PreferenceTheme_preferenceTheme 12
+int styleable PreferenceTheme_seekBarPreferenceStyle 13
+int styleable PreferenceTheme_switchPreferenceCompatStyle 14
+int styleable PreferenceTheme_switchPreferenceStyle 15
 int[] styleable PropertySet { 0x010100dc, 0x0101031f, 0x7f04025b, 0x7f0402e6, 0x7f040458 }
 int styleable PropertySet_android_visibility 0
 int styleable PropertySet_android_alpha 1
@@ -6115,6 +6355,14 @@ int styleable SearchView_searchIcon 13
 int styleable SearchView_submitBackground 14
 int styleable SearchView_suggestionRowLayout 15
 int styleable SearchView_voiceIcon 16
+int[] styleable SeekBarPreference { 0x010100f2, 0x01010136, 0x7f04046e, 0x7f040486, 0x7f040495, 0x7f040499, 0x7f0404a2 }
+int styleable SeekBarPreference_android_layout 0
+int styleable SeekBarPreference_android_max 1
+int styleable SeekBarPreference_adjustable 2
+int styleable SeekBarPreference_min 3
+int styleable SeekBarPreference_seekBarIncrement 4
+int styleable SeekBarPreference_showSeekBarValue 5
+int styleable SeekBarPreference_updatesContinuously 6
 int[] styleable ShapeAppearance { 0x7f040120, 0x7f040121, 0x7f040122, 0x7f040123, 0x7f040124, 0x7f040126, 0x7f040127, 0x7f040128, 0x7f040129, 0x7f04012a }
 int styleable ShapeAppearance_cornerFamily 0
 int styleable ShapeAppearance_cornerFamilyBottomLeft 1
@@ -6229,6 +6477,28 @@ int styleable SwitchCompat_trackTint 12
 int styleable SwitchCompat_trackTintMode 13
 int[] styleable SwitchMaterial { 0x7f04044f }
 int styleable SwitchMaterial_useMaterialThemeColors 0
+int[] styleable SwitchPreference { 0x010101ef, 0x010101f0, 0x010101f1, 0x0101036b, 0x0101036c, 0x7f04047a, 0x7f04049c, 0x7f04049d, 0x7f0404a0, 0x7f0404a1 }
+int styleable SwitchPreference_android_summaryOn 0
+int styleable SwitchPreference_android_summaryOff 1
+int styleable SwitchPreference_android_disableDependentsState 2
+int styleable SwitchPreference_android_switchTextOn 3
+int styleable SwitchPreference_android_switchTextOff 4
+int styleable SwitchPreference_disableDependentsState 5
+int styleable SwitchPreference_summaryOff 6
+int styleable SwitchPreference_summaryOn 7
+int styleable SwitchPreference_switchTextOff 8
+int styleable SwitchPreference_switchTextOn 9
+int[] styleable SwitchPreferenceCompat { 0x010101ef, 0x010101f0, 0x010101f1, 0x0101036b, 0x0101036c, 0x7f04047a, 0x7f04049c, 0x7f04049d, 0x7f0404a0, 0x7f0404a1 }
+int styleable SwitchPreferenceCompat_android_summaryOn 0
+int styleable SwitchPreferenceCompat_android_summaryOff 1
+int styleable SwitchPreferenceCompat_android_disableDependentsState 2
+int styleable SwitchPreferenceCompat_android_switchTextOn 3
+int styleable SwitchPreferenceCompat_android_switchTextOff 4
+int styleable SwitchPreferenceCompat_disableDependentsState 5
+int styleable SwitchPreferenceCompat_summaryOff 6
+int styleable SwitchPreferenceCompat_summaryOn 7
+int styleable SwitchPreferenceCompat_switchTextOff 8
+int styleable SwitchPreferenceCompat_switchTextOn 9
 int[] styleable TabItem { 0x01010002, 0x010100f2, 0x0101014f }
 int styleable TabItem_android_icon 0
 int styleable TabItem_android_layout 1
@@ -6469,6 +6739,7 @@ int styleable ViewTransition_upDuration 13
 int styleable ViewTransition_viewTransitionMode 14
 int[] styleable include { 0x7f040107 }
 int styleable include_constraintSet 0
+int xml root_preferences 0x7f150005
 int xml standalone_badge 0x7f150000
 int xml standalone_badge_gravity_bottom_end 0x7f150001
 int xml standalone_badge_gravity_bottom_start 0x7f150002

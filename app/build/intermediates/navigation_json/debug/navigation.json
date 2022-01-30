@@ -1,16 +1,6 @@
 [
   {
-    "name": "mobile_navigation2",
-    "navigationXmlIds": [],
-    "deepLinks": []
-  },
-  {
-    "name": "mobile_navigation3",
-    "navigationXmlIds": [],
-    "deepLinks": []
-  },
-  {
-    "name": "mobile_navigation4",
+    "name": "navigation_sidebar",
     "navigationXmlIds": [],
     "deepLinks": []
   }

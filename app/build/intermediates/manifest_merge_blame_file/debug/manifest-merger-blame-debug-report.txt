@@ -15,15 +15,15 @@
 12        android:allowBackup="true"
 12-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\stepan\.gradle\caches\transforms-3\fb3270031bd107031c21c5dc13d9e5ef\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0-alpha03] C:\Users\stepan\.gradle\caches\transforms-3\9df72d6715971608ef4e633d7d7fbff2\transformed\core-1.8.0-alpha03\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:7:9-43
+16        android:icon="@mipmap/n3_logo"
+16-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:7:9-39
 17        android:label="@string/app_name"
 17-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:9:9-54
+18        android:roundIcon="@mipmap/n3_logo_round"
+18-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:9:9-50
 19        android:supportsRtl="true"
 19-->C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\AndroidManifest.xml:10:9-35
 20        android:testOnly="true"
