@@ -8,6 +8,8 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="31" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -18,7 +20,8 @@
         android:roundIcon="@mipmap/n3_logo_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.RoadRunnerTuner" >
+        android:theme="@style/Theme.RoadRunnerTuner"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.notnotnerds.roadrunnertuner.MainActivity"
             android:exported="false"
