@@ -18,11 +18,11 @@ import com.notnotnerds.roadrunnertuner.databinding.FragmentDashboardBinding
 class DashboardFragment : Fragment() {
 
   private lateinit var dashboardViewModel: DashboardViewModel
-private var _binding: FragmentDashboardBinding? = null
+  private var _binding: FragmentDashboardBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
-
+  var chub=true //control hub or robot controller phone
   @SuppressLint("SetJavaScriptEnabled")
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -36,7 +36,11 @@ private var _binding: FragmentDashboardBinding? = null
     val root: View = binding.root
 
     val dashView = root.findViewById<WebView>(R.id.dashView)
-    dashView.loadUrl("https://acmerobotics.github.io/ftc-dashboard/")
+    if(chub){
+    dashView.loadUrl("192.168.43.1:8080/dash")}
+    else{
+      dashView.loadUrl("192.168.49.1:8080/dash")
+    }
 
     val dashViewSettings = dashView.settings
     dashViewSettings.javaScriptEnabled = true
@@ -48,9 +52,14 @@ private var _binding: FragmentDashboardBinding? = null
     dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
       textView.text = it
     })
-    return root
-  }
 
+    return root
+
+  }
+  @JvmName("setChub1")
+  fun setChub(yes: Boolean){
+    chub = yes
+  }
 override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

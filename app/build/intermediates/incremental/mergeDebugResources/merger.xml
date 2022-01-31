@@ -10624,7 +10624,7 @@
     </string><string name="drive_constants_text">"The drive constants file will include everything regarding the physical characteristics of
         the bot. This includes motor's max RPM, wheel radius, etc. Most egregious errors in the process manifest themselves in this
         stage. For example, if your robot is traveling half the distance specified, this is most likely a problem in your drive constants. /n/n"
-        "Further details on how to use this will be provided in the drive constants page. \n\n"</string></file><file path="C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.RoadRunnerTuner" parent="Theme.AppCompat.Light.NoActionBar">
+        "Further details on how to use this will be provided in the drive constants page. \n\n"</string><string name="drive_constants">Drive Constants</string><string name="chub_question">Are you using a Control Hub?</string></file><file path="C:\Users\stepan\AndroidStudioProjects\RRTuner\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.RoadRunnerTuner" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/n3_blue</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

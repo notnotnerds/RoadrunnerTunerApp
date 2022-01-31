@@ -137,4 +137,6 @@
         the bot. This includes motor's max RPM, wheel radius, etc. Most egregious errors in the process manifest themselves in this
         stage. For example, if your robot is traveling half the distance specified, this is most likely a problem in your drive constants. /n/n"
         "Further details on how to use this will be provided in the drive constants page. \n\n"</string>
+    <string name="drive_constants">Drive Constants</string>
+    <string name="chub_question">Are you using a Control Hub?</string>
 </resources>

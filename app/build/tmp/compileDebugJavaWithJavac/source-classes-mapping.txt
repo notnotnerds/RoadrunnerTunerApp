@@ -18,7 +18,7 @@ com/notnotnerds/roadrunnertuner/databinding/NavHeaderMainBinding.java
  com.notnotnerds.roadrunnertuner.databinding.NavHeaderMainBinding
 com/notnotnerds/roadrunnertuner/databinding/ActivitySplashBinding.java
  com.notnotnerds.roadrunnertuner.databinding.ActivitySplashBinding
-com/notnotnerds/roadrunnertuner/databinding/FragmentHomeBinding.java
- com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding
 com/notnotnerds/roadrunnertuner/databinding/AppBarMainBinding.java
  com.notnotnerds.roadrunnertuner.databinding.AppBarMainBinding
+com/notnotnerds/roadrunnertuner/databinding/FragmentHomeBinding.java
+ com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding

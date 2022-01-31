@@ -2869,11 +2869,13 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id immediateStop
 id included
 id info
 id invisible
 id inward
+id isCHub
 id italic
 id item1
 id item2
@@ -2953,6 +2955,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
 id nav_dashboard
+id nav_drive_constants
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
@@ -3415,9 +3418,11 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string chub_question
 string clear_text_end_icon_content_description
 string copy
 string dashboard
+string drive_constants
 string drive_constants_text
 string error_icon_content_description
 string expand_button_title

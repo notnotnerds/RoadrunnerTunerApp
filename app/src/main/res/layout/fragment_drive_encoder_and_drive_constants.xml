@@ -11,4 +11,5 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
         android:text="@string/Drive_Encoder_Question_text" />
+
 </androidx.core.widget.NestedScrollView>

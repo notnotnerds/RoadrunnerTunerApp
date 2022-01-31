@@ -13,6 +13,10 @@
             android:icon="@drawable/ic_dashboard_black_24dp"
             android:title="Tuning" />
         <item
+            android:id="@+id/nav_drive_constants"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/drive_constants"/>
+        <item
             android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_baby_rr"
             android:title="@string/dashboard" />
