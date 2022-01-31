@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\ajesc\.gradle\caches\transforms-3\3d1312f3ccf52e6aad5fb8278336e511\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\0f36b2b8a8f2bd8b355da0ec03b4d168\transformed\navigation-fragment-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.4.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb2ba608fab8d56eb87fa41881839334\transformed\navigation-fragment-2.4.0\AndroidManifest.xml:17:1-24:12
@@ -63,20 +63,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ajesc\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\6b2bca196f44edb806d00295fdcab713\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\43037c0b2dd43be656c119826bff6d23\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ajesc\.gradle\caches\transforms-3\29c7b199d4646ee497ba13091e7b830d\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -85,7 +85,7 @@ ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\Android
 	android:name
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:7:5-29:19
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:7:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\ajesc\.gradle\caches\transforms-3\bb120d0f3cef906a8dd7f4d4a5f6d377\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\ajesc\.gradle\caches\transforms-3\ef532b6d1ae35b007ac277b7869ad55e\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
@@ -115,35 +115,37 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ajesc\.gradle\cach
 	android:allowBackup
 		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:13:9-53
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:14:9-53
+	android:usesCleartextTraffic
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:13:9-44
 activity#com.notnotnerds.roadrunnertuner.MainActivity
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:14:9-18:72
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:16:9-20:72
 	android:label
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:17:13-56
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:19:13-56
 	android:exported
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:18:13-37
 	android:theme
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:18:13-69
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-69
 	android:name
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:17:13-41
 activity#com.notnotnerds.roadrunnertuner.splash
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:19:9-28:20
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:21:9-30:20
 	android:label
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:13-45
 	android:exported
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:20:13-35
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:22:13-35
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ajesc\StudioProjects\RoadrunnerTunerApp\app\src\main\AndroidManifest.xml
