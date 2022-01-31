@@ -2,8 +2,8 @@ com/notnotnerds/roadrunnertuner/BuildConfig.java
  com.notnotnerds.roadrunnertuner.BuildConfig
 com/notnotnerds/roadrunnertuner/databinding/ContentMainBinding.java
  com.notnotnerds.roadrunnertuner.databinding.ContentMainBinding
-com/notnotnerds/roadrunnertuner/databinding/ActivityMainBinding.java
- com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding
+com/notnotnerds/roadrunnertuner/databinding/AppBarMainBinding.java
+ com.notnotnerds.roadrunnertuner.databinding.AppBarMainBinding
 com/notnotnerds/roadrunnertuner/databinding/FragmentSlideshowBinding.java
  com.notnotnerds.roadrunnertuner.databinding.FragmentSlideshowBinding
 com/notnotnerds/roadrunnertuner/databinding/FragmentGalleryBinding.java
@@ -18,5 +18,5 @@ com/notnotnerds/roadrunnertuner/databinding/ActivitySplashBinding.java
  com.notnotnerds.roadrunnertuner.databinding.ActivitySplashBinding
 com/notnotnerds/roadrunnertuner/databinding/FragmentHomeBinding.java
  com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding
-com/notnotnerds/roadrunnertuner/databinding/AppBarMainBinding.java
- com.notnotnerds.roadrunnertuner.databinding.AppBarMainBinding
+com/notnotnerds/roadrunnertuner/databinding/ActivityMainBinding.java
+ com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding

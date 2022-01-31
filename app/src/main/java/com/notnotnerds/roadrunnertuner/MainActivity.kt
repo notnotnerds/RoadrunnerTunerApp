@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -16,16 +17,21 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.get
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding
+import com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment
 import com.notnotnerds.roadrunnertuner.ui.settings.Settings
+import com.notnotnerds.roadrunnertuner.ui.tuners.TunerFragment
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
     private var pressedTime: Long = 0
+    lateinit var fragmentManager: FragmentManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,6 +58,18 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        fragmentManager=supportFragmentManager
+        if(findViewById<View>(R.id.container) !=null){
+            if(savedInstanceState != null){
+                return
+            }
+            var fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+            val tuningFragment: TunerFragment =  TunerFragment()
+            fragmentTransaction.add(R.id.container, tuningFragment, null)
+            fragmentTransaction.commit()
+        }
+
+
 
     }
 
@@ -80,10 +98,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startTuningProcess(view: android.view.View) {
-        setContentView(R.layout.fragment_gallery)
+        fragmentManager.beginTransaction().replace(R.id.container, DashboardFragment(), null).commit()
 
         Handler().postDelayed({
-               val intent = Intent(this, splash::class.java)
+               val intent = Intent(this, MainActivity::class.java)
                startActivity(intent)
                finish()
         }, 3000)

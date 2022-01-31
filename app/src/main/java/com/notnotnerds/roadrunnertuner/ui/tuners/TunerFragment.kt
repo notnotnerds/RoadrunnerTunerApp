@@ -8,7 +8,10 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.notnotnerds.roadrunnertuner.MainActivity
+import com.notnotnerds.roadrunnertuner.R
 import com.notnotnerds.roadrunnertuner.databinding.FragmentGalleryBinding
+import com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment
 
 class TunerFragment : Fragment() {
 
@@ -24,8 +27,7 @@ class TunerFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        galleryViewModel =
-            ViewModelProvider(this).get(TunerViewModel::class.java)
+        galleryViewModel = ViewModelProvider(this)[TunerViewModel::class.java]
 
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
