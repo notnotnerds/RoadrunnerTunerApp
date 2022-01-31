@@ -36,7 +36,7 @@ private var _binding: FragmentDashboardBinding? = null
     val root: View = binding.root
 
     val dashView = root.findViewById<WebView>(R.id.dashView)
-    dashView.loadUrl("http://acme.com/")
+    dashView.loadUrl("https://acmerobotics.github.io/ftc-dashboard/")
 
     val dashViewSettings = dashView.settings
     dashViewSettings.javaScriptEnabled = true

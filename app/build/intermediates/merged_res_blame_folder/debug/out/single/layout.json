@@ -32,6 +32,10 @@
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     },
     {
+        "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_drive_encoder_and_drive_constants.xml",
+        "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\layout\\fragment_drive_encoder_and_drive_constants.xml"
+    },
+    {
         "merged": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
         "source": "C:\\Users\\stepan\\AndroidStudioProjects\\RRTuner\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
     },

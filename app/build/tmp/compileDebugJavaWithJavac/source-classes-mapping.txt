@@ -2,6 +2,8 @@ com/notnotnerds/roadrunnertuner/BuildConfig.java
  com.notnotnerds.roadrunnertuner.BuildConfig
 com/notnotnerds/roadrunnertuner/databinding/ContentMainBinding.java
  com.notnotnerds.roadrunnertuner.databinding.ContentMainBinding
+com/notnotnerds/roadrunnertuner/databinding/FragmentDriveEncoderAndDriveConstantsBinding.java
+ com.notnotnerds.roadrunnertuner.databinding.FragmentDriveEncoderAndDriveConstantsBinding
 com/notnotnerds/roadrunnertuner/databinding/ActivityMainBinding.java
  com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding
 com/notnotnerds/roadrunnertuner/databinding/FragmentSlideshowBinding.java

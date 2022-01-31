@@ -2470,6 +2470,7 @@ int dimen test_navigation_bar_item_min_width 0x7f070246
 int dimen test_navigation_bar_label_padding 0x7f070247
 int dimen test_navigation_bar_shadow_height 0x7f070248
 int dimen test_navigation_bar_text_size 0x7f070249
+int dimen text_margin 0x7f070252
 int dimen tooltip_corner_radius 0x7f07024a
 int dimen tooltip_horizontal_padding 0x7f07024b
 int dimen tooltip_margin 0x7f07024c
@@ -2646,6 +2647,7 @@ int id AppTitle 0x7f0a0001
 int id BOTTOM_END 0x7f0a0002
 int id BOTTOM_START 0x7f0a0003
 int id CTRL 0x7f0a0004
+int id DriveEncoderConstantsPage 0x7f0a0202
 int id FUNCTION 0x7f0a0005
 int id META 0x7f0a0006
 int id NO_DEBUG 0x7f0a0007
@@ -3263,6 +3265,7 @@ int layout design_text_input_end_icon 0x7f0d002e
 int layout design_text_input_start_icon 0x7f0d002f
 int layout expand_button 0x7f0d0030
 int layout fragment_dashboard 0x7f0d0031
+int layout fragment_drive_encoder_and_drive_constants 0x7f0d008f
 int layout fragment_gallery 0x7f0d0032
 int layout fragment_home 0x7f0d0033
 int layout fragment_notifications 0x7f0d0034
@@ -3369,6 +3372,7 @@ int mipmap n3_logo_foreground 0x7f0f0005
 int mipmap n3_logo_round 0x7f0f0006
 int navigation navigation_sidebar 0x7f100000
 int plurals mtrl_badge_content_description 0x7f110000
+int string Drive_Encoder_Question_text 0x7f1200a6
 int string abc_action_bar_home_description 0x7f120000
 int string abc_action_bar_up_description 0x7f120001
 int string abc_action_menu_overflow_description 0x7f120002
@@ -3413,6 +3417,7 @@ int string chip_text 0x7f120028
 int string clear_text_end_icon_content_description 0x7f120029
 int string copy 0x7f12002a
 int string dashboard 0x7f12002b
+int string drive_constants_text 0x7f1200a7
 int string error_icon_content_description 0x7f12002c
 int string expand_button_title 0x7f12002d
 int string exposed_dropdown_menu_content_description 0x7f12002e
@@ -3421,6 +3426,7 @@ int string fab_transformation_sheet_behavior 0x7f120030
 int string hide_bottom_view_on_scroll_behavior 0x7f120031
 int string icon_content_description 0x7f120032
 int string item_view_role_description 0x7f120033
+int string large_text 0x7f1200a8
 int string m3_ref_typeface_brand_display_regular 0x7f120034
 int string m3_ref_typeface_brand_medium 0x7f120035
 int string m3_ref_typeface_brand_regular 0x7f120036

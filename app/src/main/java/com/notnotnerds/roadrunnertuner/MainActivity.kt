@@ -22,9 +22,12 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.notnotnerds.roadrunnertuner.databinding.ActivityMainBinding
+import com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding
 import com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment
+import com.notnotnerds.roadrunnertuner.ui.home.HomeFragment
 import com.notnotnerds.roadrunnertuner.ui.settings.Settings
 import com.notnotnerds.roadrunnertuner.ui.tuners.TunerFragment
+import com.notnotnerds.roadrunnertuner.ui.tuners.drive_setup.DriveEncoderAndDriveConstants
 
 class MainActivity : AppCompatActivity() {
 
@@ -83,7 +86,7 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.action_settings -> {
                 Toast.makeText(this, "Settings were pressed", Toast.LENGTH_SHORT).show()
-                setContentView(R.layout.fragment_home)
+                fragmentManager.beginTransaction().replace(R.id.container, HomeFragment(), null).commit()
             }
             R.id.action_restart -> Toast.makeText(this,
                 "Restarting App (in the future)",
@@ -98,7 +101,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun startTuningProcess(view: android.view.View) {
-        fragmentManager.beginTransaction().replace(R.id.container, DashboardFragment(), null).commit()
+        fragmentManager.beginTransaction().replace(R.id.container, DriveEncoderAndDriveConstants(), null).commit()
 /*
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)

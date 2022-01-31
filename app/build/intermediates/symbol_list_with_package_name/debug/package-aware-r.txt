@@ -2471,6 +2471,7 @@ dimen test_navigation_bar_item_min_width
 dimen test_navigation_bar_label_padding
 dimen test_navigation_bar_shadow_height
 dimen test_navigation_bar_text_size
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2647,6 +2648,7 @@ id AppTitle
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id DriveEncoderConstantsPage
 id FUNCTION
 id META
 id NO_DEBUG
@@ -3264,6 +3266,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout expand_button
 layout fragment_dashboard
+layout fragment_drive_encoder_and_drive_constants
 layout fragment_gallery
 layout fragment_home
 layout fragment_notifications
@@ -3370,6 +3373,7 @@ mipmap n3_logo_foreground
 mipmap n3_logo_round
 navigation navigation_sidebar
 plurals mtrl_badge_content_description
+string Drive_Encoder_Question_text
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3414,6 +3418,7 @@ string chip_text
 string clear_text_end_icon_content_description
 string copy
 string dashboard
+string drive_constants_text
 string error_icon_content_description
 string expand_button_title
 string exposed_dropdown_menu_content_description
@@ -3422,6 +3427,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
+string large_text
 string m3_ref_typeface_brand_display_regular
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
