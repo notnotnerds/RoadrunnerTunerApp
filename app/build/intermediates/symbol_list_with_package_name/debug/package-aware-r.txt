@@ -2575,7 +2575,6 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable duck_background
 drawable duck_foreground
-drawable ic_action_name
 drawable ic_arrow_down_24dp
 drawable ic_baby_rr
 drawable ic_clock_black_24dp
@@ -2642,7 +2641,6 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable tuning_icon
 font allerta_stencil
 id ALT
 id AppTitle
