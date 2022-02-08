@@ -1,5 +1,6 @@
 package com.notnotnerds.roadrunnertuner
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -35,6 +36,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var pressedTime: Long = 0
     lateinit var fragmentManager: FragmentManager
+    var startButton: Boolean = false
+    private lateinit var chub: DashboardFragment
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -42,10 +46,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.appBarMain.toolbar)
-
-        binding.appBarMain.fab.setOnClickListener { view ->
-            Snackbar.make(view, "notnotnerds@gmail.com is our email, if you would like to report a bug", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+        chub=DashboardFragment()
+        binding.appBarMain.fab.setOnClickListener {
+            Toast.makeText(baseContext, "notnotnerds@gmail.com is our email, if you would like to report a bug", Toast.LENGTH_LONG).show()
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
@@ -68,6 +71,15 @@ class MainActivity : AppCompatActivity() {
             val tuningFragment: TunerFragment =  TunerFragment()
             fragmentTransaction.add(R.id.container, tuningFragment, null)
             fragmentTransaction.commit()
+
+            if(!chub.chub){
+                fragmentTransaction.detach(fragmentManager.findFragmentByTag("DashboardFragment")!!)
+                fragmentTransaction.commit()
+               Toast.makeText(this, "Unloaded fragment", Toast.LENGTH_SHORT).show()
+                fragmentTransaction.attach(fragmentManager.findFragmentByTag("DashboardFragment")!!)
+                fragmentTransaction.commit()
+                Toast.makeText(this, "reloaded fragment", Toast.LENGTH_SHORT).show()
+            }
         }
 
 
@@ -98,8 +110,13 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+    @SuppressLint("ResourceType")
     fun startTuningProcess(view: android.view.View) {
-        fragmentManager.beginTransaction().replace(R.id.container, DriveEncoderAndDriveConstants(), null).commit()
+        fragmentManager.beginTransaction().add(R.id.container, DriveEncoderAndDriveConstants()).commit()
+        fragmentManager.beginTransaction().remove(HomeFragment()).commit()
+
+        startButton=true
+        Toast.makeText(this, "start tuning", Toast.LENGTH_SHORT).show()
 /*
         Handler().postDelayed({
             val intent = Intent(this, MainActivity::class.java)

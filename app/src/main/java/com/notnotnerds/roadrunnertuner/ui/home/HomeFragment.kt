@@ -4,17 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding
-import android.widget.CompoundButton
 
 import android.R
-import android.widget.Switch
+import android.widget.*
+import androidx.fragment.app.FragmentTransaction
 
-import android.widget.ToggleButton
 import com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment
 
 
@@ -42,12 +40,14 @@ private var _binding: FragmentHomeBinding? = null
       textView.text = it
     })
     toggleButton = root!!.findViewById(com.notnotnerds.roadrunnertuner.R.id.isCHub) as Switch
-    toggleButton.setOnCheckedChangeListener { buttonView, isChecked ->
+    toggleButton.setOnCheckedChangeListener { _, isChecked ->
       if (isChecked) {
         toggleButton.text = "Control Hub"
+        Toast.makeText(context, "Control Hub Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(true)
       } else {
         toggleButton.text = "Robot Controller Phone"
+        Toast.makeText(context, "Robot Controller Phone Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(false)
       }
     }
