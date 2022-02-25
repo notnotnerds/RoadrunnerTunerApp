@@ -139,4 +139,5 @@
         "Further details on how to use this will be provided in the drive constants page. \n\n"</string>
     <string name="drive_constants">Drive Constants</string>
     <string name="chub_question">Are you using a Control Hub?</string>
+    <string name="chub">Control Hub?</string>
 </resources>

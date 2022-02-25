@@ -37,21 +37,15 @@ class DashboardFragment : Fragment() {
 
     val dashView = root.findViewById<WebView>(R.id.dashView)
     if(chub){
-    dashView.loadUrl("192.168.43.1:8080/dash")}
+    dashView.loadUrl("dontasktoask.com")}
     else{
-      dashView.loadUrl("192.168.49.1:8080/dash")
+      dashView.loadUrl("nohello.net")
     }
 
     val dashViewSettings = dashView.settings
     dashViewSettings.javaScriptEnabled = true
     dashViewSettings.allowContentAccess = true
 
-
-
-    val textView: TextView = binding.textDashboard
-    dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
-    })
 
     return root
 

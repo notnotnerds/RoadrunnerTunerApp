@@ -35,19 +35,15 @@ private var _binding: FragmentHomeBinding? = null
     _binding = FragmentHomeBinding.inflate(inflater, container, false)
     val root: View = binding.root
     chub=DashboardFragment()
-    val textView: TextView = binding.textHome
-    homeViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
-    })
     toggleButton = root!!.findViewById(com.notnotnerds.roadrunnertuner.R.id.isCHub) as Switch
     toggleButton.setOnCheckedChangeListener { _, isChecked ->
       if (isChecked) {
         toggleButton.text = "Control Hub"
-        Toast.makeText(context, "Control Hub Selected", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), "Control Hub Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(true)
       } else {
         toggleButton.text = "Robot Controller Phone"
-        Toast.makeText(context, "Robot Controller Phone Selected", Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), "Robot Controller Phone Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(false)
       }
     }

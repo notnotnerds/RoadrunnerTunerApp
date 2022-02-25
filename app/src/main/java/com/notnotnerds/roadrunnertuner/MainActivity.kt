@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var fragmentManager: FragmentManager
     var startButton: Boolean = false
     private lateinit var chub: DashboardFragment
-
+/*** region setup */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -86,6 +87,25 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
+/** region removal */
+    override fun onPause() {
+        super.onPause()
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
@@ -101,6 +121,15 @@ class MainActivity : AppCompatActivity() {
             R.id.action_restart -> Toast.makeText(this,
                 "Restarting App (in the future)",
                 Toast.LENGTH_SHORT).show()
+            R.id.action_chub -> {
+                Toast.makeText(this, "Changing to robot controller phone", Toast.LENGTH_SHORT).show()
+                val dialogBuilder = AlertDialog.Builder(this)
+                    .setTitle("Select your RC device")
+                    .setMessage("Select whether you have a control hub or android phone")
+                    .setPositiveButton("Control Hub") { _, _-> }
+                    .setNeutralButton("Android Phone") { _, _-> }
+                dialogBuilder.show()
+            }
         }
         return super.onOptionsItemSelected(item)
     }
