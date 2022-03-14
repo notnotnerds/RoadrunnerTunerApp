@@ -10,10 +10,17 @@ import androidx.lifecycle.ViewModelProvider
 import com.notnotnerds.roadrunnertuner.databinding.FragmentHomeBinding
 
 import android.R
+import android.content.Context
+import android.util.Log
+import android.webkit.ConsoleMessage
 import android.widget.*
 import androidx.fragment.app.FragmentTransaction
 
 import com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment
+import java.io.File
+import java.io.FileOutputStream
+import java.io.FileReader
+import java.io.FileWriter
 
 
 class HomeFragment : Fragment() {
@@ -24,6 +31,9 @@ private var _binding: FragmentHomeBinding? = null
   // onDestroyView.
   private val binding get() = _binding!!
   lateinit var toggleButton: Switch
+
+  val fileName = "RRTvars"
+
   private lateinit var chub: DashboardFragment
   override fun onCreateView(
     inflater: LayoutInflater,
@@ -41,10 +51,19 @@ private var _binding: FragmentHomeBinding? = null
         toggleButton.text = "Control Hub"
         Toast.makeText(requireContext(), "Control Hub Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(true)
-      } else {
+
+        context!!.openFileOutput(fileName, Context.MODE_PRIVATE).use { it.write("Yes".toByteArray()) }
+
+        Log.d("FRR","Created the File Baby - Yes")
+      }
+
+      else {
         toggleButton.text = "Robot Controller Phone"
         Toast.makeText(requireContext(), "Robot Controller Phone Selected", Toast.LENGTH_SHORT).show()
         chub.setChub(false)
+
+        context!!.openFileOutput(fileName, Context.MODE_PRIVATE).use { it.write("No".toByteArray()) }
+        Log.d("FRR","Created the File Baby - No")
       }
     }
     return root

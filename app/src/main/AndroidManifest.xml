@@ -3,6 +3,7 @@
     package="com.notnotnerds.roadrunnertuner">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission."/>
 
     <application
         android:allowBackup="true"

@@ -2,6 +2,7 @@ package com.notnotnerds.roadrunnertuner.ui.dashboard
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,11 +15,15 @@ import androidx.lifecycle.ViewModelProvider
 import com.notnotnerds.roadrunnertuner.MainActivity
 import com.notnotnerds.roadrunnertuner.R
 import com.notnotnerds.roadrunnertuner.databinding.FragmentDashboardBinding
+import com.notnotnerds.roadrunnertuner.ui.home.HomeFragment
+import java.io.*
+import java.nio.channels.FileChannel.open
 
 class DashboardFragment : Fragment() {
 
   private lateinit var dashboardViewModel: DashboardViewModel
   private var _binding: FragmentDashboardBinding? = null
+  private val HF: HomeFragment = HomeFragment()
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
@@ -36,11 +41,20 @@ class DashboardFragment : Fragment() {
     val root: View = binding.root
 
     val dashView = root.findViewById<WebView>(R.id.dashView)
-    if(chub){
-    dashView.loadUrl("dontasktoask.com")}
-    else{
-      dashView.loadUrl("nohello.net")
+
+
+
+    val useLines = context!!.openFileInput("RRTvars").bufferedReader().readLine()
+
+    if (useLines.contains("Yes")){
+      dashView.loadUrl("http://example.com/")
     }
+    else{
+      dashView.loadUrl("https://acmerobotics.github.io/")
+    }
+
+    Log.d("Magic, baby", useLines)
+
 
     val dashViewSettings = dashView.settings
     dashViewSettings.javaScriptEnabled = true

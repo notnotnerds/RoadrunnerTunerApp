@@ -27,9 +27,4 @@
         android:name="com.notnotnerds.roadrunnertuner.ui.dashboard.DashboardFragment"
         android:label="@string/dashboard"
         tools:layout="@layout/fragment_dashboard" />
-    <fragment
-        android:id="@+id/nav_drive_constants"
-        android:name="com.notnotnerds.roadrunnertuner.ui.tuners.drive_setup.DriveEncoderAndDriveConstants"
-        android:label="Drive Constants"
-        android:layout="@layout/fragment_drive_encoder_and_drive_constants"/>
 </navigation>
